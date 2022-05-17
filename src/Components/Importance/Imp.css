@@ -1,0 +1,89 @@
+:root {
+  --first-color: #367c77;
+  --second-color: #174b47;
+  --third-color: #bae4e0;
+  --hover-color: #faefef;
+}
+
+.Importance {
+  display: flex;
+  margin: 0px 2vh 0px 13vh;
+  height: 50vh;
+}
+
+.images {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-right: -30vh;
+  /* height: auto;
+  min-height: 100%; */
+}
+
+.ImpImg {
+  width: 60%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.Doc {
+  top: 23vh;
+  left: 24vh;
+}
+
+.StethLap {
+  right: 45vh;
+}
+
+.Steth {
+  border: 5px solid white;
+  height: 40vh;
+  width: 35vh;
+  border-radius: 8px;
+}
+
+.Doct {
+  height: 30vh;
+  width: 40vh;
+  border-radius: 8px;
+}
+
+.ImpText {
+  flex: 1;
+  margin-top: -68px;
+  /* width: 70%; */
+}
+
+.ImpHead {
+  color: var(--first-color);
+  margin-bottom: 30px;
+}
+
+.ImpCont {
+  text-align: justify;
+  width: 85%;
+  margin-bottom: 40px;
+}
+
+.Imp-btn {
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin: auto 5px;
+  background-color: var(--first-color);
+  color: white;
+  font-weight: 500;
+}
+
+.Imp-btn :hover {
+  background-color: white;
+  color: var(--first-color);
+
+  box-shadow: 5px 5px 5px var(--third-color);
+}
+
+.Imp-btn a {
+  color: white;
+}
