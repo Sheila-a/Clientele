@@ -1,19 +1,21 @@
-:root {
+/* :root {
   --first-color: #367c77;
   --second-color: #174b47;
   --third-color: #bae4e0;
   --hover-color: #faefef;
   --dropdown-color: #bde0de;
-}
-/* 
-.Nav {
-  position: sticky;
-  top: 0;
 } */
+
+.Nav {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137);
+}
 
 .Navbar {
   height: 6.5vh;
-  /* background-color: #5fa19d; */
   background-color: var(--second-color);
   /* background-image: linear-gradient(to right, red, yellow); */
 
@@ -22,6 +24,9 @@
   justify-content: flex-end;
   padding-right: 125px;
   overflow: hidden;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
 }
 
 .Navbar a {
@@ -46,13 +51,14 @@ a {
   text-decoration: none;
   color: black;
 }
+
 .NavCon {
   font-weight: 300;
 }
 
 .NavChild {
   height: 10vh;
-  /* background-color: #ffebc1; */
+  background-color: white;
   display: flex;
   align-items: center;
   /* justify-content: flex-end; */
@@ -117,6 +123,7 @@ a {
 .DList {
   padding: 5px 8px 5px 10px;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 .DList:hover {

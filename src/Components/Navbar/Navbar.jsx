@@ -36,7 +36,7 @@ const Navbar = () => {
                 <Link to="/about">Meet Our Doctor</Link>
               </div>
               <div className="DList">
-                <Link to="/biodata-form">Meet the Staff</Link>
+                <Link to="">Meet the Staff</Link>
               </div>
               <div className="DList">
                 <Link to="/about">Community events</Link>

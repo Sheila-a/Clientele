@@ -1,0 +1,57 @@
+.ptherapy {
+    text-align: center;
+}
+
+.ptherapy-mega-title {
+
+    font-size: 60px;
+    color: var(--second-color);
+}
+
+.ptherapy-origin {
+    background-image: url(../../../../Images/medical-symbol1.png);
+    background-size: 5%;
+    background-position: 3vh 0vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+
+}
+
+.ptherapy-origin-1 {
+    background-image: url(../../../../Images/physiotherapist5.png);
+    background-size: 5%;
+    background-position: 185vh 27vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.ptherapy-origin-2 {
+    background-image: url(../../../../Images/physiotherapist1.png);
+    background-size: 6%;
+    background-position: 0vh 25vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.ptherapy {
+    background-image: url(../../../../Images/physiotherapist.png);
+    background-size: 10%;
+    /* background-position: 193.7vh 200vh; */
+    background-position: 185vh 200vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.ptherapy-title {
+    /* margin-left: 60vh; */
+    color: var(--first-color);
+
+}
+
+.ptherapy-text {
+    text-align: justify;
+    line-height: 3;
+    margin: 0 5vh;
+    padding: 0 25vh;
+
+}

@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../../../Navbar/Navbar";
 
 const Diagnosis = () => {
-  return <div>Diagnosis</div>;
+  return (
+    <div>
+      <Navbar />
+      Diagnosis
+    </div>
+  );
 };
 
 export default Diagnosis;

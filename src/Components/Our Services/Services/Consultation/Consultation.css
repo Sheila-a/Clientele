@@ -1,0 +1,62 @@
+/* :root {
+  --first-color: #367c77;
+  --second-color: #174b47;
+  --third-color: #bae4e0;
+  --hover-color: #faefef;
+  --dropdown-color: #bde0de;
+} */
+
+.Cons {
+  padding: 10vh 40vh 20vh 40vh;
+  /* background-image: linear-gradient(to right, #bae4e0, #f1f7f6); */
+  /* color: white; */
+}
+
+.Cons-text {
+  width: 100%;
+  margin-bottom: 5vh;
+  /* text-align: justify; */
+  /* margin-left: 25vh; */
+}
+
+.forma {
+  /* border: 2px solid black; */
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137);
+  padding: 5vh 5vh 10vh 5vh;
+  /* background-color: var(--dropdown-color); */
+  /* background-image: linear-gradient(to right, #bae4e0, #f1f7f6); */
+}
+
+.Cons-select {
+  width: 200px;
+}
+
+.Cons-name {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.Cons-name-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 11.4vh;
+}
+
+.Cons-input {
+  /* margin-right: 60vh; */
+  width: 300px;
+  text-decoration: none;
+  border: none;
+  /* background-color: var(--dropdown-color); */
+  border-bottom: 1px solid var(--second-color);
+  margin-right: 11.4vh;
+}
+
+.Cons-input-1 {
+  width: 300px;
+  text-decoration: none;
+  border: none;
+  /* background-color: var(--dropdown-color); */
+  border-bottom: 1px solid var(--second-color);
+}
