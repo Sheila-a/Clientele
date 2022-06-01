@@ -1,3 +1,4 @@
+import React from "react";
 import "./Intro.css";
 import { Link } from "react-router-dom";
 import Flag from "../../Images/N4L.png";
