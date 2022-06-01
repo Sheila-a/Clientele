@@ -1,0 +1,150 @@
+/* :root {
+    --first-color: #367c77;
+    --second-color: #174b47;
+    --third-color: #bae4e0;
+    --hover-color: #faefef;
+    --dropdown-color: #bde0de;
+} */
+
+.career {
+    text-align: center;
+    /* padding: 5vh 25vh; */
+    /* background-image: url(../../../../Images/Water.png); */
+    background-image: url(../../../../Images/Water20.png);
+    background-size: 60%;
+    background-position: 25vh 70vh;
+    /* background-size: 70%;
+    background-position: 10vh 70vh; */
+    background-repeat: no-repeat;
+}
+
+.openings {
+    font-size: 50px;
+    color: var(--second-color);
+}
+
+.hiring {
+    width: 30%;
+    text-align: center;
+    animation: hiring infinite;
+}
+
+.career-intro {
+
+    padding: 5vh 25vh;
+}
+
+.career-intro-text {
+    text-align: justify;
+}
+
+.career-form-div {
+    display: flex;
+    /* background-color: white;
+    opacity: .7; */
+    margin: 2vh 5vh 2vh 25vh;
+
+}
+
+
+
+.career-form {
+    flex: 2;
+    text-align: left;
+    /* padding-left: 12vh; */
+}
+
+.career-title {
+    color: var(--first-color);
+    /* color: var(--second-color); */
+    font-size: 2.73vh;
+    margin-bottom: 2vh;
+}
+
+.career-input {
+    width: 100%;
+    border: none;
+    background-color: var(--third-color);
+    padding: 1.5vh;
+}
+
+.career-input:focus {
+    outline: none;
+}
+
+.career-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.career-selector select {
+    /* border: 1.5px solid var(--first-color); */
+    border: none;
+    /* border-radius: 3px; */
+    outline: none;
+    width: 120px;
+    background: white;
+    min-height: 30px;
+    /* background: #daf5f3; */
+    background: var(--third-color);
+    cursor: pointer;
+    appearance: none;
+    padding-left: 4px;
+
+}
+
+.career-selector::after {
+    content: '';
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #222;
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    bottom: 7px;
+    border-radius: 2px;
+}
+
+/* .career-select {
+    padding: 0.3vh;
+    
+}
+
+.career-select:focus {
+    outline: none;
+}*/
+
+.career-selector option {
+    background-color: white;
+    cursor: pointer;
+}
+
+/*
+.career-option:hover {
+    background-color: white;
+} */
+
+
+.Education input {
+    margin: 2vh 2vh 2vh 0vh;
+}
+
+.Avail input {
+    margin: 2vh 2vh 1vh 0vh;
+
+}
+
+.reduce {
+    font-size: 10px;
+}
+
+.career-form-right {
+    flex: 1;
+}
+
+.hiring2 {
+    width: 100%;
+    margin-top: 60vh;
+    /* margin-top: 90vh; */
+}

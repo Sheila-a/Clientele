@@ -48,10 +48,12 @@
   width: 80px;
 }
 
-input:focus {
+/* input:focus {
   outline: none;
   text-align: center;
-}
+} */
+
+
 
 .reg-name-input {
   display: flex;
@@ -98,12 +100,24 @@ input:focus {
   margin-right: 11.4vh;
 }
 
+.reg-input:focus .reg-input-1:focus {
+
+  outline: none;
+  text-align: center;
+}
+
 .reg-input-1 {
   width: 300px;
   text-decoration: none;
   border: none;
   /* background-color: var(--dropdown-color); */
   border-bottom: 1px solid var(--second-color);
+}
+
+.reg-input-1:focus {
+
+  outline: none;
+  text-align: center;
 }
 
 .reg-address {

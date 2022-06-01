@@ -616,7 +616,7 @@ const Register = () => {
         </div>
       </div>
       <Footer />
-      <img src="https://picsum.photos/200?grayscale" alt="" />
+      {/* <img src="https://picsum.photos/200?grayscale" alt="" /> */}
     </div>
   );
 };
