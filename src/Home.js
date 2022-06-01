@@ -1,3 +1,4 @@
+import React from "react";
 import Imp from "./Components/Importance/Imp";
 import Intro from "./Components/Intro/Intro";
 import Navbar from "./Components/Navbar/Navbar";

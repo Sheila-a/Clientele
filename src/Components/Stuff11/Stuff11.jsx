@@ -1,3 +1,4 @@
+import React from "react";
 import "./Stuff11.css";
 import Job from "../../Images/job.png";
 import Resource from "../../Images/resources.png";
