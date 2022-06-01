@@ -5,6 +5,20 @@
   --hover-color: #faefef;
 }
 
+/* :root {
+  --first-color: #7055b9;
+  --second-color: #19087c;
+  --third-color: #463d96ee;
+  --hover-color: #faefef;
+} */
+
+/* :root {
+  --first-color: #2a0b81;
+  --second-color: #320942;
+  --third-color: #8780c0ee;
+  --hover-color: #faefef;
+} */
+
 .Intro {
   /* height: 84.5vh; */
   /* background-color: #ffebc1; */

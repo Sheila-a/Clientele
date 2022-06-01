@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Resource from "./Components/Resources/Resource";
 import Stuff11 from "./Components/Stuff11/Stuff11";
 import Touch from "./Components/Get In Touch/Touch";
+import Footer from "./Components/Footer/footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Imp />
       <Resource />
       <Touch />
+      <Footer />
     </div>
   );
 };

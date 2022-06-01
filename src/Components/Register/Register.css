@@ -1,1 +1,160 @@
+/* :root {
+  --first-color: #367c77;
+  --second-color: #174b47;
+  --third-color: #bae4e0;
+  --hover-color: #faefef;
+  --dropdown-color: #bde0de;
+} */
 
+.Reg {
+  /* margin-top: 12vh; */
+  padding: 10vh 40vh 20vh 50vh;
+  background-image: -moz-element(BG);
+  /* display: flex; */
+}
+
+/* .reg-left {
+  flex: 1;
+  height: 500vh;
+}
+
+.reg-img {
+  width: 100%;
+  height: 100%;
+}
+
+.reg-right {
+  flex: 1;
+} */
+
+.Reg-text {
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.Reg-form {
+  border: 3px solid var(--second-color);
+  /* box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137); */
+  padding: 5vh 5vh 10vh 5vh;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.reg-select {
+  width: 200px;
+}
+
+.prefix {
+  width: 80px;
+}
+
+/* input:focus {
+  outline: none;
+  text-align: center;
+} */
+
+
+
+.reg-name-input {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.reg-name {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.firstname {
+  margin-right: 10vh;
+}
+
+.lastname {
+  margin-right: 10vh;
+}
+
+.reg-name-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 11.4vh;
+}
+
+.DOB {
+  margin-left: -22.6vh;
+  margin-right: 15.6vh;
+}
+
+.AGE {
+  margin-left: -28.6vh;
+}
+
+.reg-input {
+  /* margin-right: 60vh; */
+  width: 300px;
+  text-decoration: none;
+  border: none;
+  /* background-color: var(--dropdown-color); */
+  border-bottom: 1px solid var(--second-color);
+  margin-right: 11.4vh;
+}
+
+.reg-input:focus .reg-input-1:focus {
+
+  outline: none;
+  text-align: center;
+}
+
+.reg-input-1 {
+  width: 300px;
+  text-decoration: none;
+  border: none;
+  /* background-color: var(--dropdown-color); */
+  border-bottom: 1px solid var(--second-color);
+}
+
+.reg-input-1:focus {
+
+  outline: none;
+  text-align: center;
+}
+
+.reg-address {
+  width: 681px;
+}
+
+.rltnshp {
+  display: flex;
+}
+
+.reg-radio {
+  display: flex;
+}
+
+hr {
+  height: 3px;
+  background-color: var(--first-color);
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.137);
+  /* border: none; */
+}
+
+.reg-btn-div {
+  text-align: center;
+}
+
+.reg-btn {
+  border-radius: 2px;
+  padding: 5px 30px;
+  margin: 30px 5px 0px 5px;
+  border: 1px solid var(--second-color);
+  background-color: var(--first-color);
+  color: white;
+  font-size: 12px;
+}
+
+.reg-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--first-color);
+}

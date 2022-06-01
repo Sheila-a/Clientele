@@ -1,52 +1,34 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 import "./Login.css";
 
 const Login = () => {
   return (
     <div className="Login">
-      <div className="topper"></div>
-
-      <div className="bodyy">
-        <form action="">
-          <div className="main-form">
-            <h3 className="title">Email/Card Number</h3>
-            <input
-              type="email"
-              placeholder="Enter Email or Card Number"
-              required
-              className="input"
-            />
-            <h3 className="title">Password</h3>
-            <input
-              type="password"
-              placeholder="Enter password"
-              required
-              className="input"
-            />
-          </div>
-
-          <div className="checkbox">
-            <label htmlFor="Remember" className="agree">
-              <input type="checkbox" className="checker" />
-            </label>
-            <div className="Remb">Remember me</div>
-          </div>
-          <button className="btn">Login</button>
-        </form>
-        <div class="light x1"></div>
-        <div class="light x2"></div>
-        <div class="light x3"></div>
-        <div class="light x4"></div>
-        <div class="light x5"></div>
-        <div class="light x6"></div>
-        <div class="light x7"></div>
-        <div class="light x8"></div>
-        <div class="light x9"></div>
+      <Navbar />
+      <div className="Login-card">
+        {/* <h4 className="login-txt">Email</h4> */}
+        <input type="email" className="login-input" placeholder="Email" />
+        <br />
+        <br />
+        <br />
+        {/* <h4 className="login-txt">Password</h4> */}
+        <input type="password" className="login-input" placeholder="Password" />
+        <br />
+        <br />
+        <div className="login-checkbox">
+          <input type="checkbox" className="login-chck" /> Keep me signed in
+        </div>
+        <br />
+        <br />
+        <button className="login-btn  ">Login</button>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
-
-      <footer>
-        <div className="footers"></div>
-      </footer>
+      <br />
+      <br />
     </div>
   );
 };

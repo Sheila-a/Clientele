@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Components/About/About";
 import Services from "./Components/Our Services/Services";
 import Contact from "./Components/Contact/Contact";
-import Biodata from "./Components/Biodata/biodata";
 import Career from "./Components/Our Services/Services/Career/Career";
 import Consultation from "./Components/Our Services/Services/Consultation/Consultation";
 import Diagnosis from "./Components/Our Services/Services/Diagnosis/Diagnosis";
@@ -25,7 +24,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/biodata-form" element={<Biodata />} />
           <Route path="/career" element={<Career />} />
           <Route path="/consultation" element={<Consultation />} />
           <Route path="/diagnosis" element={<Diagnosis />} />

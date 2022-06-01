@@ -1,17 +1,19 @@
-:root {
+/* :root {
   --first-color: #367c77;
   --second-color: #174b47;
   --third-color: #bae4e0;
   --hover-color: #faefef;
-}
+} */
 
 .Resource_wrapper {
   margin: 25vh 20vh;
 }
+
 .Resc_title {
   color: var(--first-color);
   margin-bottom: 30px;
 }
+
 .Resource {
   display: flex;
 }
