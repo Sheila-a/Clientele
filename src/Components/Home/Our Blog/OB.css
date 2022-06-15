@@ -1,0 +1,18 @@
+.OB {
+    height: 100vh;
+    background-image: url(../../../Images/19366.jpg);
+    background-size: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: var(--second-color);
+    z-index: 1;
+}
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {}
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */
