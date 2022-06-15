@@ -1,0 +1,202 @@
+:root {
+  --first-color: #367c77;
+  --second-color: #174b47;
+  --third-color: #bae4e0;
+  --hover-color: #faefef;
+}
+
+/* :root {
+  --first-color: #7055b9;
+  --second-color: #19087c;
+  --third-color: #463d96ee;
+  --hover-color: #faefef;
+} */
+
+/* :root {
+  --first-color: #2a0b81;
+  --second-color: #320942;
+  --third-color: #8780c0ee;
+  --hover-color: #faefef;
+} */
+
+.Intro {
+  z-index: 1;
+  margin-top: 16vh;
+}
+
+.Intro-intro {
+  position: relative;
+}
+
+.Intro-cont {
+  height: 84.5vh;
+  width: 100%;
+  background-color: var(--third-color);
+  opacity: 0.4;
+}
+
+.Intro-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Intro-text {
+  position: absolute;
+  top: 30vh;
+  left: 20.7vh;
+  flex: 1;
+}
+
+.Welcome {
+  color: var(--first-color);
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+}
+
+.Name {
+  font-size: 48px;
+  color: #02201e;
+}
+
+.Motto {
+  color: var(--first-color);
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.button {
+  margin-top: 5vh;
+}
+
+.Intro-btn {
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin: auto 5px;
+  background-color: var(--first-color);
+  color: white;
+  font-weight: 500;
+  border: 1px solid var(--second-color);
+}
+
+.Intro-btn:hover {
+  background-color: white;
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+}
+
+.Intro-pic {
+  position: absolute;
+  top: 8vh;
+  left: 110vh;
+  flex: 1;
+}
+
+.flag {
+  position: relative;
+  right: 8vh;
+}
+
+.flagg {
+  width: 90vh;
+}
+
+.doc {
+  top: 1.3vh;
+  position: absolute;
+  left: 14vh;
+}
+
+.docc {
+  width: 50vh;
+}
+
+.Intro-btn a {
+  color: white;
+}
+
+.Intro-btn a:hover {
+  color: var(--first-color);
+}
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .Intro {
+    margin-top: 0;
+    z-index: 1;
+
+  }
+
+  .Intro-cont {
+    width: 100%;
+  }
+
+  .Intro-cont {
+    height: 60vh;
+    margin-top: 11vh;
+    background-image: url(../../../Images/test-intro.jpg);
+    background-size: 100vh;
+
+
+  }
+
+  .Intro-flex {
+    /* display: flex; */
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Intro-text {
+    top: 10vh;
+    width: 10vh;
+    left: 5vh;
+    right: 0;
+  }
+
+  .Intro-pic {
+    /* flex: 1; */
+    left: 0;
+  }
+
+  .Welcome {
+    font-size: 20px;
+    width: 25vh;
+    margin-bottom: 5vh;
+  }
+
+  .Intro-btn {
+    margin-right: 2vh;
+    padding: 3px 12px;
+  }
+
+  .Motto {
+    font-size: 18px;
+    margin-top: 5vh;
+    width: 30vh;
+    font-weight: 500;
+  }
+
+  .button {
+    display: flex;
+  }
+
+  .flagg {
+    display: none;
+  }
+
+  .docc {
+    display: none;
+  }
+
+
+
+}
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */
