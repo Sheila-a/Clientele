@@ -1,7 +1,7 @@
 import React from "react";
 import "./RWU.css";
 import { Link } from "react-router-dom";
-import ELI from "../../../Images/Ellipse 17.png";
+// import ELI from "../../../Images/Ellipse 17.png";
 
 function RWU() {
   return (

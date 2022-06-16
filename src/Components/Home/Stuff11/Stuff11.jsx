@@ -1,8 +1,8 @@
 import React from "react";
 import "./Stuff11.css";
-import Job from "../../../Images/job.png";
-import Resource from "../../../Images/resources.png";
-import Consult from "../../../Images/consulting.png";
+// import Job from "../../../Images/job.png";
+// import Resource from "../../../Images/resources.png";
+// import Consult from "../../../Images/consulting.png";
 
 const Stuff11 = () => {
   return (
