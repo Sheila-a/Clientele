@@ -4,10 +4,18 @@ import Pics from "../../../Images/surgery-1822458.jpg";
 
 const Resource = () => {
   return (
-    <div className="Resource_wrapper">
+    <div
+      className="Resource_wrapper"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <h2 className="Resc_title">Best resources for you</h2>
       <div className="Resource">
-        <div className="Resc_detail">
+        <div
+          className="Resc_detail"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="">
             <img src={Pics} alt="" className="Pics" />
           </div>
@@ -19,7 +27,11 @@ const Resource = () => {
             consequatur voluptatem beatae harum praesentium quia!
           </div>
         </div>
-        <div className="Resc_detail">
+        <div
+          className="Resc_detail"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="">
             <img src={Pics} alt="" className="Pics" />
           </div>
@@ -33,7 +45,11 @@ const Resource = () => {
             </p>
           </div>
         </div>
-        <div className="Resc_detail">
+        <div
+          className="Resc_detail"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="">
             <img src={Pics} alt="" className="Pics" />
           </div>
@@ -45,7 +61,11 @@ const Resource = () => {
             consequatur voluptatem beatae harum praesentium quia!
           </div>
         </div>
-        <div className="Resc_detail">
+        <div
+          className="Resc_detail"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="">
             <img src={Pics} alt="" className="Pics" />
           </div>

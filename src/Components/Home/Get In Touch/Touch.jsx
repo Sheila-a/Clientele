@@ -9,9 +9,19 @@ const Touch = () => {
 
       <div className="Touch_text">
         <div className="Touch-left">
-          <img src={Lady} alt="" className="left-pic" />
+          <img
+            src={Lady}
+            alt=""
+            className="left-pic"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+          />
         </div>
-        <div className="Touch-right">
+        <div
+          className="Touch-right"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
           <h2 className="Touch-title cent">Sign up for Newsletter</h2>
           <p className="Right-text cent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam

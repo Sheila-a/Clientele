@@ -6,11 +6,15 @@ import Doc from "../../../Images/intro-pic.png";
 
 const Intro = () => {
   return (
-    <div className="Intro">
+    <div className="Intro" data-aos="fade-in" data-aos-duration="1000">
       <div className="Intro-intro">
         <div className="Intro-cont"></div>
         <div className="Intro-flex">
-          <div className="Intro-text">
+          <div
+            className="Intro-text"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div className="Welcome">Welcome to</div>
             <div className="Name">
               <b>MERIEN Hospitals</b>
@@ -25,7 +29,11 @@ const Intro = () => {
               </button>
             </div>
           </div>
-          <div className="Intro-pic">
+          <div
+            className="Intro-pic"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div className="flag">
               <img src={Flag} alt="" className="flagg" />
             </div>

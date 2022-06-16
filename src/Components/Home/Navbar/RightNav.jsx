@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import Search from "../../../Images/search.png";
 
 const UL = styled.div`
   @media (min-width: 320px) and (max-width: 430px) {
@@ -14,7 +13,6 @@ const UL = styled.div`
     position: fixed;
     top: 0;
     right: 0;
-    // height: 32vh;
     height: 100vh;
     width: 25vh;
     transition: transform 0.3s ease-in-out;
@@ -22,15 +20,25 @@ const UL = styled.div`
     padding-top: 5vh;
 
     p {
-      padding: 2.5vh 0vh;
-      //   left: 0;
+      padding: 2.5vh 0vh 2.5vh 1vh;
+      width: 203px;
       color: white;
+    }
+
+    p:hover {
+      background: #367c77;
     }
 
     div {
       flex-direction: column;
       text-align: left;
       flex-flow: column nowrap;
+    }
+
+    .span {
+      margin-left: 2vh;
+      margin-top: 0;
+      box-shadow: #bae4e0 1.95px 1.95px 2.6px;
     }
   }
 `;
@@ -41,7 +49,7 @@ const RightNav = ({ open }) => {
       <div className="NavChild11">
         <div className="dropdown">
           <p className="NavChildList">About Us</p>
-          <div className="dropdown-content">
+          <div className="dropdown-content span">
             <div className="DList">
               <Link to="/about">Meet Our Doctor</Link>
             </div>
@@ -56,7 +64,7 @@ const RightNav = ({ open }) => {
 
         <div className="dropdown">
           <p className="NavChildList">Our Services</p>
-          <div className="dropdown-content">
+          <div className="dropdown-content span">
             <div className="DList">
               <Link to="/consultation">Consultation</Link>
             </div>

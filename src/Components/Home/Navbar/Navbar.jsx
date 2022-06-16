@@ -5,7 +5,7 @@ import Burger from "./Burger";
 
 const Navbar = ({ open }) => {
   return (
-    <div className="Nav">
+    <div className="Nav" data-aos="fade-down" data-aos-duration="1000">
       <div className="Navbar">
         <p className="NavCon">
           <Link to="/login">Login</Link>
@@ -78,12 +78,13 @@ const Navbar = ({ open }) => {
           <Link to="/contact">
             <p className="NavChildList NCL">Contact Us</p>
           </Link>
-          <p>
-            <Link to="">
-              <img src={Search} alt="" className="Search" />
-            </Link>
-          </p>
+          
         </div> */}
+        <p>
+          <Link to="">
+            <img src={Search} alt="" className="Search" />
+          </Link>
+        </p>
       </div>
     </div>
   );
