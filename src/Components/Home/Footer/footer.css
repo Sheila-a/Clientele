@@ -95,6 +95,7 @@
 
 @media (min-width: 320px) and (max-width: 430px) {
 
+
   .bottom-flex {
     display: flex;
     font-display: column;

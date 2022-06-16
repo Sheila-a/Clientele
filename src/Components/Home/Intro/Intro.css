@@ -22,7 +22,7 @@
 
 .Intro {
   z-index: 1;
-  margin-top: 16vh;
+  /* margin-top: 16vh; */
 }
 
 .Intro-intro {
@@ -30,10 +30,11 @@
 }
 
 .Intro-cont {
-  height: 84.5vh;
+  height: 100.5vh;
   width: 100%;
   background-color: var(--third-color);
   opacity: 0.4;
+  padding-top: 16vh;
 }
 
 .Intro-flex {
@@ -46,6 +47,7 @@
   top: 30vh;
   left: 20.7vh;
   flex: 1;
+  padding-top: 16vh;
 }
 
 .Welcome {
@@ -98,6 +100,7 @@
 .flag {
   position: relative;
   right: 8vh;
+  padding-top: 16vh;
 }
 
 .flagg {
@@ -108,6 +111,7 @@
   top: 1.3vh;
   position: absolute;
   left: 14vh;
+  padding-top: 16vh;
 }
 
 .docc {
@@ -139,7 +143,7 @@
 
   .Intro-cont {
     height: 60vh;
-    margin-top: 11vh;
+    /* margin-top: 11vh; */
     background-image: url(../../../Images/test-intro.jpg);
     background-size: 100vh;
 
@@ -158,6 +162,7 @@
     width: 10vh;
     left: 5vh;
     right: 0;
+    /* padding-top: 11vh; */
   }
 
   .Intro-pic {

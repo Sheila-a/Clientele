@@ -63,8 +63,13 @@
   }
 
   .Resc_detail {
-    margin-right: 5vh;
+    margin-left: 3vh;
     margin-bottom: 5vh;
+    width: 70%;
+  }
+
+  .Resc_content {
+    font-size: 13px;
   }
 }
 

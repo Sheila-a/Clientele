@@ -5,6 +5,7 @@
     background-position: 10vh 70vh;
     background-attachment: scroll;
     background-repeat: repeat-y; */
+    background-color: rgb(251, 255, 255);
 }
 
 .homeo-mega-title {
@@ -29,7 +30,7 @@
 
 .homeo-text {
     width: 50%;
-    margin: auto 0vh auto 81vh;
+    margin: auto 0vh auto 86vh;
     /* width: 70%;
     margin: auto 30vh; */
     /* width: 50%;
@@ -52,6 +53,9 @@
     background-position: 20vh 17vh;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    /* background-color: rgb(251, 255, 255); */
+    background-color: rgb(216, 247, 247);
+    padding: 6vh;
 }
 
 .homeo-origin-2 {
@@ -70,5 +74,9 @@
     background-position: 20vh 17vh;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    /* background-color: rgb(251, 255, 255); */
+    background-color: rgb(216, 247, 247);
+    padding: 6vh;
+    margin-bottom: 0;
 
 }

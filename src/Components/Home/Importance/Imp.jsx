@@ -17,18 +17,20 @@ const Imp = () => {
         </div>
       </div>
       <div className="ImpText" data-aos="fade-left" data-aos-duration="1000">
-        <h2 className="ImpHead">Our Importance</h2>
-        <p className="ImpCont">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit
-          repellat distinctio cupiditate consequatur illum accusantium ipsum
-          vitae perferendis molestiae at dicta veniam quam obcaecati nam porro
-          voluptatibus quo incidunt itaque ex quisquam hic, ipsa eligendi autem?
-          Impedit quod libero pariatur ut, aperiam iste earum at tempore
-          dolorum, perspiciatis non.
-        </p>
-        <span className="Imp-btn">
-          <Link to="/register">Register</Link>
-        </span>
+        <div className="ImpTextHide" data-aos="fade-up">
+          <h2 className="ImpHead">Our Importance</h2>
+          <p className="ImpCont">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit
+            repellat distinctio cupiditate consequatur illum accusantium ipsum
+            vitae perferendis molestiae at dicta veniam quam obcaecati nam porro
+            voluptatibus quo incidunt itaque ex quisquam hic, ipsa eligendi
+            autem? Impedit quod libero pariatur ut, aperiam iste earum at
+            tempore dolorum, perspiciatis non.
+          </p>
+          <span className="Imp-btn">
+            <Link to="/register">Register</Link>
+          </span>
+        </div>
       </div>
     </div>
   );

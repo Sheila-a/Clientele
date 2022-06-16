@@ -57,6 +57,11 @@
   border-radius: 8px;
 }
 
+.ImpHeadHide {
+  visibility: hidden;
+
+}
+
 .ImpText {
   flex: 1;
   padding: 30vh 0;
@@ -145,6 +150,10 @@
 
   .ImpHead {
     font-size: 22px;
+  }
+
+  .ImpHeadHide {
+    visibility: visible;
   }
 
   .ImpText {

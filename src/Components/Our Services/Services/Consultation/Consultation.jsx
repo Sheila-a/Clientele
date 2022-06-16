@@ -1,7 +1,7 @@
 import React from "react";
 import "./Consultation.css";
-import Navbar from "../../../Navbar/Navbar";
-import Footer from "../../../Footer/footer";
+import Navbar from "../../../Home/Navbar/Navbar";
+import Footer from "../../../Home/Footer/footer";
 
 const Consultation = () => {
   return (
@@ -47,8 +47,8 @@ const Consultation = () => {
               <input type="text" className="Cons-input" />
             </div>
             <div className="Cons-name">
-              <p>First Name</p>
-              <p>Last Name</p>
+              <p className="firstname">First Name</p>
+              <p className="lastname">Last Name</p>
             </div>
             <br />
             <br />
@@ -75,8 +75,8 @@ const Consultation = () => {
               <input type="text" className="Cons-input" />
             </div>
             <div className="Cons-name">
-              <p>Area Code</p>
-              <p>Phone Number</p>
+              <p className="firstname">Area Code</p>
+              <p className="lastname">Phone Number</p>
             </div>
             <br />
             <br />
