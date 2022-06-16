@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Home/Navbar/Navbar";
 import "./Login.css";
 
 const Login = () => {
@@ -7,25 +7,34 @@ const Login = () => {
     <div className="Login">
       <Navbar />
       <div className="Login-card">
-        {/* <h4 className="login-txt">Email</h4> */}
         <input type="email" className="login-input" placeholder="Email" />
         <br />
         <br />
         <br />
-        {/* <h4 className="login-txt">Password</h4> */}
         <input type="password" className="login-input" placeholder="Password" />
         <br />
         <br />
-        <div className="login-checkbox">
+        {/* <div className="login-checkbox">
           <input type="checkbox" className="login-chck" /> Keep me signed in
-        </div>
-        <br />
-        <br />
+        </div> */}
+        {/* <br />
+        <br /> */}
+
         <button className="login-btn  ">Login</button>
         <br />
         <br />
         <br />
         <br />
+        <label htmlFor="myCheckboxId" className="checkbox">
+          <input
+            type="checkbox"
+            name="myCheckboxName"
+            className="checkbox__input"
+            id="myCheckboxId"
+          />
+          <div className="checkbox__box"></div>
+          Keep me signed in
+        </label>
       </div>
       <br />
       <br />
