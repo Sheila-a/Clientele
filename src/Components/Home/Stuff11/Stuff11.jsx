@@ -14,7 +14,14 @@ const Stuff11 = () => {
         data-aos-anchor-placement="center-bottom"
       >
         <div className="logo"></div>
-        <img src={Consult} alt="" className="logoo logo-1" />
+        <img
+          src={Consult}
+          alt=""
+          className="logoo logo-1"
+          data-aos="fade-out"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-bottom"
+        />
         <div className="title">Detailed Consultation</div>
         <div className="line"></div>
         <div className="content">
@@ -24,7 +31,13 @@ const Stuff11 = () => {
       </div>
       <div className="Desc_content" data-aos="fade-up" data-aos-duration="2000">
         <div className="logo"></div>
-        <img src={Resource} alt="" className="logoo logo-2" />
+        <img
+          src={Resource}
+          alt=""
+          className="logoo logo-2"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        />
         <div className="title">Amazing Resources</div>
         <div className="line"></div>
         <div className="content">
@@ -34,7 +47,13 @@ const Stuff11 = () => {
       </div>
       <div className="Desc_content" data-aos="fade-up" data-aos-duration="3000">
         <div className="logo"></div>
-        <img src={Job} alt="" className="logoo logo-3" />
+        <img
+          src={Job}
+          alt=""
+          className="logoo logo-3"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        />
         <div className="title">Career Opportunities</div>
         <div className="line"></div>
         <div className="content">
