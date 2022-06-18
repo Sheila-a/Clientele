@@ -111,10 +111,6 @@
     z-index: 1;
     margin-top: -25vh;
     background-image: none;
-    background-image: url(../../../Images/Abstract-circle.png);
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: 17vh 35vh;
   }
 
   .images {
@@ -156,10 +152,10 @@
     padding: 0;
     margin-top: -80vh;
     margin-left: -8vh;
-    /* background-image: url(../../../Images/Abstract-circle.png);
+    background-image: url(../../../Images/Abstract-circle.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 15vh -10vh; */
+    background-position: 21vh 10vh;
     margin-right: 3vh;
     font-size: 13px;
 
