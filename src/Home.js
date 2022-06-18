@@ -16,15 +16,15 @@ const Home = () => {
       {/* Approved */}
       <Navbar />
       {/* Approved */}
-      <Intro />
+      {/* <Intro /> */}
       {/* Approved */}
-      <Stuff11 />
-      <Imp />
-      <Resource />
+      {/* <Stuff11 /> */}
+      {/* <Imp /> */}
+      {/* <Resource /> */}
       {/* <OB /> */}
-      <Touch />
-      <RWU />
-      <Footer />
+      {/* <Touch /> */}
+      {/* <RWU /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
