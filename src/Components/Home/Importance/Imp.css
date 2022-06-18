@@ -135,18 +135,10 @@
     height: 20vh;
   }
 
-  /* .Steth {
-    height: 20vh;
-    width: 100%;
-    object-fit: cover;
-
+  .StethLap {
+    visibility: hidden;
   }
 
-  .StethLap {
-    margin-top: -50vh;
-    margin-left: 5vh;
-
-  } */
 
   .ImpHead {
     font-size: 22px;
