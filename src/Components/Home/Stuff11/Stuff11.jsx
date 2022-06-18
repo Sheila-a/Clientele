@@ -1,8 +1,8 @@
 import React from "react";
 import "./Stuff11.css";
-// import Job from "../../../Images/job.png";
-// import Resource from "../../../Images/resources.png";
-// import Consult from "../../../Images/consulting.png";
+import Job from "../../../Images/job.png";
+import Resource from "../../../Images/resources.png";
+import Consult from "../../../Images/consulting.png";
 
 const Stuff11 = () => {
   return (
@@ -14,7 +14,7 @@ const Stuff11 = () => {
         data-aos-anchor-placement="center-bottom"
       >
         <div className="logo"></div>
-        {/* <img src={Consult} alt="" className="logoo logo-1" /> */}
+        <img src={Consult} alt="" className="logoo logo-1" />
         <div className="title">Detailed Consultation</div>
         <div className="line"></div>
         <div className="content">
@@ -24,7 +24,7 @@ const Stuff11 = () => {
       </div>
       <div className="Desc_content" data-aos="fade-up" data-aos-duration="2000">
         <div className="logo"></div>
-        {/* <img src={Resource} alt="" className="logoo logo-2" /> */}
+        <img src={Resource} alt="" className="logoo logo-2" />
         <div className="title">Amazing Resources</div>
         <div className="line"></div>
         <div className="content">
@@ -34,7 +34,7 @@ const Stuff11 = () => {
       </div>
       <div className="Desc_content" data-aos="fade-up" data-aos-duration="3000">
         <div className="logo"></div>
-        {/* <img src={Job} alt="" className="logoo logo-3" /> */}
+        <img src={Job} alt="" className="logoo logo-3" />
         <div className="title">Career Opportunities</div>
         <div className="line"></div>
         <div className="content">

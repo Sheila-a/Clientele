@@ -68,7 +68,7 @@
   .Desc {
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
 
   .Desc_content {
