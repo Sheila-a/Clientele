@@ -68,7 +68,7 @@
   .Desc {
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
+    margin-top: 25vh;
   }
 
   .Desc_content {
@@ -85,18 +85,18 @@
 
   .logo-1 {
     width: 40px;
-    margin-top: -54.5vh;
+    margin-top: -25.5vh;
   }
 
   .logo-2 {
     width: 40px;
-    margin-top: -24.5vh;
+    margin-top: 4.5vh;
     padding-left: 5px;
   }
 
   .logo-3 {
     width: 40px;
-    margin-top: 5.5vh;
+    margin-top: 34.5vh;
     padding-left: 5px;
   }
 
