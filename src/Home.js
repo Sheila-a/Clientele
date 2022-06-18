@@ -1,4 +1,4 @@
-import Imp from "./Components/Home/Importance/Imp";
+// import Imp from "./Components/Home/Importance/Imp";
 import Intro from "./Components/Home/Intro/Intro";
 import Navbar from "./Components/Home/Navbar/Navbar";
 // import Resource from "./Components/Home/Resources/Resource";
@@ -18,8 +18,7 @@ const Home = () => {
       {/* Approved */}
       <Intro />
       {/* Approved */}
-      <Stuff11 />/
-      <Imp />
+      <Stuff11 />/{/* <Imp /> */}
       {/* <Resource /> */}
       {/* <OB /> */}
       {/* <Touch /> */}
