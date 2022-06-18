@@ -195,9 +195,9 @@
   }
 
   .NameSub {
-    font-size: 18px;
-    width: 350%;
+    font-size: 25px;
     margin-bottom: 0vh;
+    letter-spacing: 5px;
   }
 
   .Motto {
