@@ -141,10 +141,7 @@
 
   .Intro-cont {
     width: 100%;
-  }
-
-  .Intro-cont {
-    height: 84vh;
+    height: 74vh;
     /* margin-top: 11vh; */
     background-image: url(../../../Images/test-intro.jpg);
     background-size: 100vh;
