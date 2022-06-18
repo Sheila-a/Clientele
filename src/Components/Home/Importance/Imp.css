@@ -153,10 +153,9 @@
     margin-top: -80vh;
     margin-left: -8vh;
     background-image: url(../../../Images/Abstract-circle.png);
-    /* background-color: var(--third-color); */
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 2vh 10vh;
+    background-position: 15vh -10vh;
     margin-right: 3vh;
     font-size: 13px;
 
