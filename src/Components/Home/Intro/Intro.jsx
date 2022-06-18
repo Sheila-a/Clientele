@@ -16,8 +16,11 @@ const Intro = () => {
             data-aos-duration="1000"
           >
             <div className="Welcome">Welcome to</div>
-            <div className="Name">
-              <b>MERIEN Hospitals</b>
+            <div>
+              <p className="Name">
+                <b>MARIAN </b>
+              </p>
+              <p className="NameSub">Homeopathic Sanatorium </p>
             </div>
             <div className="Motto">Wellness in naturality</div>
             <div className="button">

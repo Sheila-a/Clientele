@@ -45,7 +45,7 @@
 
 .Intro-text {
   position: absolute;
-  top: 30vh;
+  top: 20vh;
   left: 20.7vh;
   flex: 1;
   padding-top: 16vh;
@@ -58,11 +58,20 @@
   font-size: 25px;
   line-height: 30px;
   letter-spacing: -0.3px;
+  margin-bottom: 5vh;
 }
 
 .Name {
-  font-size: 48px;
+  font-size: 60px;
   color: #02201e;
+  letter-spacing: 30px;
+}
+
+.NameSub {
+  font-size: 29px;
+  font-weight: 500;
+  color: #07615b;
+  margin-bottom: 10vh;
 }
 
 .Motto {
@@ -178,6 +187,17 @@
   .Intro-btn {
     margin-right: 2vh;
     padding: 3px 12px;
+  }
+
+  .Name {
+    letter-spacing: 5px;
+    font-size: 50px;
+  }
+
+  .NameSub {
+    font-size: 18px;
+    width: 350%;
+    margin-bottom: 0vh;
   }
 
   .Motto {
