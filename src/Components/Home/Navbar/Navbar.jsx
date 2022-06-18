@@ -29,6 +29,7 @@ const Navbar = ({ open }) => {
         </svg>
 
         <h2 className="NavChild1">MARIAN HOMEOPATHIC SANATORIUM</h2>
+        <h2 className="NavChild1hide">M H S</h2>
         <Burger />
 
         {/* <div className="NavChild11">
