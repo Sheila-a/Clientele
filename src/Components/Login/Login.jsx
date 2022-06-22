@@ -1,30 +1,56 @@
 import React from "react";
+// import Footer from "../Home/Footer/footer";
+// import Intro from "../Home/Intro/Intro";
 import Navbar from "../Home/Navbar/Navbar";
+// import Stuff11 from "../Home/Stuff11/Stuff11";
 import "./Login.css";
 
 const Login = () => {
   return (
-    <div className="Login">
+    <div className="login">
       <Navbar />
-      <div className="Login-card">
-        <input type="email" className="login-input" placeholder="Email" />
+      <h2 className="login-title">
+        Book an Appointment <span>with us!</span>
+      </h2>
+      <div className="login-card">
+        <input
+          type="text"
+          className="login-input"
+          placeholder="Enter Full Name"
+          required
+        />
         <br />
         <br />
         <br />
-        <input type="password" className="login-input" placeholder="Password" />
-        <br />
-        <br />
-        {/* <div className="login-checkbox">
-          <input type="checkbox" className="login-chck" /> Keep me signed in
-        </div> */}
-        {/* <br />
-        <br /> */}
-
-        <button className="login-btn  ">Login</button>
+        <input
+          type="Email"
+          className="login-input"
+          placeholder="Enter Email"
+          required
+        />
         <br />
         <br />
         <br />
+        <input
+          type="text"
+          className="login-input"
+          placeholder="Enter Phone Number"
+          required
+        />
         <br />
+        <br />
+        <br />
+        <textarea
+          cols="10"
+          rows="5"
+          className="login-input"
+          placeholder="Notes to Doctor"
+          required
+        />
+        <br />
+        <br />
+        <br className="login-hide" />
+        <br className="login-hide" />
         <label htmlFor="myCheckboxId" className="checkbox">
           <input
             type="checkbox"
@@ -33,11 +59,20 @@ const Login = () => {
             id="myCheckboxId"
           />
           <div className="checkbox__box"></div>
-          Keep me signed in
+          Please do not submit any Protected Health Information (PHI).
         </label>
+        <br />
+        <br />
+
+        <button className="login-btn  ">
+          Login <span className="fas fa-chevron-right"></span>
+        </button>
       </div>
       <br />
       <br />
+
+      {/* <Stuff11 /> */}
+      {/* <Footer /> */}
     </div>
   );
 };

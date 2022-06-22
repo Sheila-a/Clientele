@@ -20,13 +20,13 @@ const Home = () => {
       {/* Approved */}
       <Stuff11 />
       {/* Not Approved */}
-      <Imp />
+      {/* <Imp /> */}
       {/* Not Approved */}
-      <Resource />
+      {/* <Resource /> */}
       <OB />
-      <Touch />
-      <RWU />
-      <Footer />
+      {/* <Touch /> */}
+      {/* <RWU /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
