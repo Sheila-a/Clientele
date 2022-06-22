@@ -103,7 +103,7 @@ const RightNav = ({ open }) => {
         <br />
         <br />
         {/* <p>Welcome</p> */}
-      </div>
+      </div> 
     </UL>
   );
 };

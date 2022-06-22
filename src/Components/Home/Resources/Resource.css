@@ -20,8 +20,7 @@
 }
 
 .Resc_detail {
-  /* border: 5px solid black; */
-  margin-right: 20px;
+  margin-right: 3.3vh;
   border-radius: 10px;
   box-shadow: 5px 2px 5px 2px var(--third-color);
 }
@@ -63,7 +62,6 @@
   }
 
   .Resc_detail {
-    margin-left: 3vh;
     margin-bottom: 5vh;
     width: 70%;
   }
