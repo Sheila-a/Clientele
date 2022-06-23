@@ -1,0 +1,219 @@
+/* :root {
+  --first-color: #367c77;
+  --second-color: #174b47;
+  --third-color: #bae4e0;
+  --hover-color: #faefef;
+} */
+.login {
+  background-color: #ffffff;
+  background-image: url(../../Images//Login-BG.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  /* height: 85vh; */
+
+}
+
+.login-title {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2rem;
+  text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
+  color: var(--second-color);
+  font-size: 2.2rem;
+  letter-spacing: .5rem;
+  padding-top: 30vh;
+}
+
+.login-title span {
+  text-transform: uppercase;
+  color: var(--first-color);
+}
+
+.login-card {
+  text-align: center;
+  /* margin: 0vh 70vh 0vh 19vh;
+  padding: 10vh 0vh 0vh 0vh; */
+  margin-top: 5vh;
+}
+
+.login-txt {
+  color: var(--second-color);
+}
+
+.login-input {
+  /* background-color: var(--second-color); */
+  background-color: #868d9171;
+  width: 750px;
+  border: none;
+  color: var(--second-color);
+  /* border-bottom: 1px solid var(--second-color); */
+  /* text-align: center; */
+  padding-left: 2vh;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: 300;
+  border: 1.2px solid var(--second-color);
+}
+
+.login-input::placeholder {
+  color: var(--second-color);
+  font-weight: 300;
+}
+
+.login-input:hover {
+  border: 1px solid #dadada;
+}
+
+.login-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  padding: 4px 15px;
+  padding-left: 10px;
+  border: 1px solid var(--first-color);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+  color: var(--second-color);
+  cursor: pointer;
+  font-size: 13px;
+  background: #fff;
+}
+
+.login-btn span {
+  padding: 2px 4px;
+  border-radius: 3px;
+  background: var(--first-color);
+  color: #fff;
+  margin: 0 -1vh 0 .5rem;
+}
+
+.login-btn:hover {
+  background: var(--second-color);
+  color: #fff;
+}
+
+.login-btn:hover span {
+  color: var(--second-color);
+  background: #fff;
+  margin-left: 1.5rem;
+  transition: .3s ease-in;
+}
+
+textarea:hover {
+  outline: none;
+}
+
+
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 2;
+  white-space: nowrap;
+}
+
+
+.checkbox__input {
+  display: none;
+}
+
+.checkbox__box {
+  width: 1em;
+  height: 1em;
+  /* border: 2px solid #cccccc; */
+  border: 1px solid var(--first-color);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+  transition: background 0.15s, border-color 0.15s;
+  /* background: rgb(223, 221, 221); */
+}
+
+.checkbox__box::after {
+  content: '\2714';
+  color: #ffffff;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.checkbox__input:checked+.checkbox__box {
+  background: var(--first-color);
+  border-color: var(--first-color);
+}
+
+.checkbox__input:checked+.checkbox__box::after {
+  transform: scale(1);
+}
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+
+  .login {
+    height: 100vh;
+  }
+
+  .login-input {
+    width: 250px;
+    padding: 5px 0px 5px 2vh;
+    font-size: 13px;
+    margin-left: 1.5vh;
+  }
+
+  .login-title {
+    padding-top: 20vh;
+    letter-spacing: .7rem;
+    padding: 20vh 8vh 0 7.8vh;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .checkbox {
+    font-size: 9px;
+    margin-left: 5.5vh;
+    margin-right: 4.5vh;
+    white-space: normal;
+    margin-top: 0;
+
+  }
+
+  .login-hide {
+    display: none;
+  }
+
+  .login-btn {
+    font-size: 11px;
+    padding: 2px 12px;
+  }
+
+
+  .login-btn span {
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin: .3vh -1vh .3vh .5rem;
+  }
+
+
+  /* .checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 2;
+  white-space: nowrap;
+} */
+
+
+}
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */

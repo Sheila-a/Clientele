@@ -1,5 +1,4 @@
 import React from "react";
-import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 import Home from "./Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -12,6 +11,7 @@ import Diagnosis from "./Components/Our Services/Services/Diagnosis/Diagnosis";
 import FDoc from "./Components/Our Services/Services/For Doctors/FDoc";
 import Homeopathy from "./Components/Our Services/Services/Homeopathy/Homeopathy";
 import PTherapy from "./Components/Our Services/Services/Physical Therapy/PTherapy";
+import Appointment from "./Components/Appointment/Appointment";
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/our-services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/book-an-appointment" element={<Appointment />} />
           <Route path="/register" element={<Register />} />
           <Route path="/career" element={<Career />} />
           <Route path="/consultation" element={<Consultation />} />
