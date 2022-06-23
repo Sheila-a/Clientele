@@ -6,8 +6,8 @@
 } */
 
 .GITouch {
-  /* position: relative;
-    z-index: 1; */
+  position: relative;
+  z-index: 1;
 }
 
 .Touch {
@@ -139,7 +139,7 @@
 
 @media (min-width: 320px) and (max-width: 430px) {
   .GITouch {
-    margin-top: 100vh;
+    /* margin-top: 100vh; */
   }
 
   .Touch {
