@@ -79,7 +79,7 @@
   color: var(--second-color);
   cursor: pointer;
   font-size: 13px;
-  background: #fff;
+  background-color: #868d9171;
 }
 
 .login-btn span {

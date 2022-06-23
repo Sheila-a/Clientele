@@ -9,10 +9,10 @@ const Appointment = () => {
   return (
     <div className="login">
       <Navbar />
-      <h2 className="login-title">
+      <h2 className="login-title" data-aos="fade-down" data-aos-duration="2000">
         Book an Appointment <span>with us!</span>
       </h2>
-      <div className="login-card">
+      <div className="login-card" data-aos="fade-up" data-aos-duration="1500">
         <input
           type="text"
           className="login-input"
@@ -63,7 +63,6 @@ const Appointment = () => {
         </label>
         <br />
         <br />
-
         <button className="login-btn  ">
           Submit <span className="fas fa-chevron-right"></span>
         </button>
