@@ -161,7 +161,6 @@ textarea:hover {
 
   .login {
     height: 100vh;
-    background-size: 100vh;
   }
 
   .login-input {
@@ -174,7 +173,7 @@ textarea:hover {
 
   .login-title {
     letter-spacing: .7rem;
-    padding: 15vh 8vh 0 7.8vh;
+    padding: 15vh 0vh 0 9vh;
     font-size: 1.5rem;
     text-align: left;
   }
@@ -204,6 +203,11 @@ textarea:hover {
     border-radius: 3px;
     margin: .3vh -1vh .3vh .5rem;
   }
+
+  .login-btn {
+    background-color: #868d9171;
+  }
+
 
 
 
