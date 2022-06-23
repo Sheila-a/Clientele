@@ -9,6 +9,7 @@
   background-image: url(../../Images//Login-BG.jpg);
   background-attachment: fixed;
   background-size: cover;
+
   /* height: 85vh; */
 
 }
@@ -160,6 +161,7 @@ textarea:hover {
 
   .login {
     height: 100vh;
+    background-size: 100vh;
   }
 
   .login-input {
