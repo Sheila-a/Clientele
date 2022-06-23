@@ -171,6 +171,11 @@ section {
 /* @media (min-width: 270px) and (max-width: 320px) {} */
 
 @media (min-width: 320px) and (max-width: 430px) {
+    .OB {
+        background-size: 500%;
+        height: 100vh;
+    }
+
     .OB-heading {
         font-size: 2rem;
         text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
