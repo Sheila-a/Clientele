@@ -22,14 +22,26 @@ const Intro = () => {
               </p>
               <p className="NameSub">Homeopathic Sanatorium </p>
             </div>
-            <div className="Motto">Wellness in naturality</div>
+            <div className="Motto">...a wellness clinic with naturality</div>
             <div className="button">
-              <button className="Intro-btn">
-                <Link to="/register">Register</Link>
+              <button
+                className="intro-btn 
+              
+              "
+              >
+                {/* <Link to="/register">
+                  Register <span className="fas fa-chevron-right"></span>
+                </Link> */}
+                <Link to="/book-an-appointment">
+                  Book an Appointment{" "}
+                  <span className="fas fa-chevron-right"></span>
+                </Link>
               </button>
-              <button className="Intro-btn">
-                <Link to="/login">Login</Link>
-              </button>
+              {/* <button className="OB-btn">
+                <Link to="/login">
+                  Login <span className="fas fa-chevron-right"></span>
+                </Link>
+              </button> */}
             </div>
           </div>
           <div

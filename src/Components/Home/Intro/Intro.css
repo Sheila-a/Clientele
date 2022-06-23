@@ -45,65 +45,100 @@
 
 .Intro-text {
   position: absolute;
-  top: 20vh;
-  left: 18vh;
+  top: 25vh;
+  left: 19.5vh;
   flex: 1;
   padding-top: 16vh;
 }
 
 .Welcome {
   color: var(--first-color);
-  font-weight: 800;
-  font-style: normal;
+  font-weight: 500;
   font-size: 25px;
   line-height: 30px;
   letter-spacing: -0.3px;
-  margin-bottom: 5vh;
+  margin-bottom: 1vh;
 }
 
 .Name {
-  font-size: 60px;
+  font-size: 48px;
   color: #02201e;
   letter-spacing: 30px;
+  font-weight: 600;
 }
 
 .NameSub {
-  font-size: 29px;
+  font-size: 25px;
   font-weight: 500;
   color: #07615b;
-  margin-bottom: 10vh;
+  margin-bottom: 1vh;
 }
 
 .Motto {
   color: var(--first-color);
-  font-weight: 800;
-  font-size: 25px;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 2vh;
 }
 
 .button {
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
 }
 
-.Intro-btn {
-  border-radius: 3px;
-  padding: 5px 15px;
-  margin: auto 5px;
-  background-color: var(--first-color);
-  color: white;
-  font-weight: 500;
-  border: 1px solid var(--second-color);
-}
 
-.Intro-btn:hover {
-  background-color: white;
-  color: var(--first-color);
+.intro-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  /* padding: 0.5rem; */
+  padding: 4.5px;
+  padding-left: 10px;
   border: 1px solid var(--first-color);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+
+  cursor: pointer;
+  /* font-size: 1.7rem; */
+  font-size: 11px;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.intro-btn a {
+  color: var(--first-color);
+}
+
+.intro-btn span {
+  padding: 5px 6px;
+  border-radius: 3px;
+  background: var(--first-color);
+  color: #fff;
+  margin-left: 0.5rem;
+
+}
+
+.intro-btn:hover {
+  background: var(--second-color);
+  box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
+
+
+
+}
+
+.intro-btn:hover a {
+  color: #fff;
+}
+
+.intro-btn:hover span {
+  color: var(--second-color);
+  background: #fff;
+  margin-left: 1rem;
+  transition: .3s ease-in;
 }
 
 .Intro-pic {
   position: absolute;
   top: 7.5vh;
-  left: 110vh;
+  right: 6.8vh;
   flex: 1;
 }
 
@@ -205,6 +240,7 @@
     margin-top: 5vh;
     width: 30vh;
     font-weight: 500;
+    white-space: nowrap;
   }
 
   .button {
