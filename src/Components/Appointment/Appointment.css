@@ -159,14 +159,15 @@ textarea:hover {
 @media (min-width: 320px) and (max-width: 430px) {
 
   .login {
-    /* height: 100vh; */
+    height: 100vh;
   }
 
   .login-input {
     width: 250px;
     padding: 5px 0px 5px 2vh;
     font-size: 13px;
-    margin-left: 1vh;
+    margin-bottom: -3vh;
+    /* margin-left: .5vh; */
   }
 
   .login-title {
@@ -201,6 +202,13 @@ textarea:hover {
     border-radius: 3px;
     margin: .3vh -1vh .3vh .5rem;
   }
+
+
+
+  /* .checkbox__input {
+    margin-top: -5vh;
+    padding: 20vh;
+  } */
 
 
   /* .checkbox {

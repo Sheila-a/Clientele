@@ -65,7 +65,7 @@ const Appointment = () => {
         <br />
 
         <button className="login-btn  ">
-          Login <span className="fas fa-chevron-right"></span>
+          Submit <span className="fas fa-chevron-right"></span>
         </button>
       </div>
       <br />
