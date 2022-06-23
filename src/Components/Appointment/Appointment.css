@@ -159,7 +159,7 @@ textarea:hover {
 @media (min-width: 320px) and (max-width: 430px) {
 
   .login {
-    /* height: 100vh; */
+    height: 100vh;
   }
 
   .login-input {
