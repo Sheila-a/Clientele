@@ -23,7 +23,7 @@
 }
 
 section {
-    padding: 2rem 11%;
+    padding: 2rem 9.4%;
 }
 
 .OB-heading {
@@ -47,8 +47,8 @@ section {
     /* padding: 0.5rem; */
     padding: 4.5px;
     padding-left: 10px;
-    border: 2px solid var(--first-color);
-    border-radius: .5rem;
+    border: 1px solid var(--first-color);
+    border-radius: 4px;
     box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
     color: var(--second-color);
     cursor: pointer;
@@ -82,6 +82,11 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.OB-image:hover {
+    transform: scale(1.2);
+    transition: .5s ease-out;
 }
 
 .OB-blogs .OB-box-container {
@@ -161,4 +166,57 @@ section {
 
 }
 
-/* CORRECTION MAYBE */
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .OB-heading {
+        font-size: 2rem;
+        text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
+    }
+
+    .OB-blogs .OB-box-container {
+        display: block;
+    }
+
+    .OB-box {
+        margin-bottom: 5vh;
+        margin-left: 2vh;
+    }
+
+    /* .OB-images {
+        height: 50%;
+    }
+
+    .OB-image {
+        height: 60%;
+        width: 90%;
+        object-fit: cover;
+    } */
+
+    .OB-blogs .OB-box-container .OB-box {
+        width: 75%;
+    }
+
+    .OB-blogs .OB-box-container .OB-box {
+        height: 50vh;
+        padding-bottom: 2vh;
+    }
+
+    .OB-blogs .OB-box-container .OB-box .OB-content .OB-icon a {
+        font-size: 10px;
+    }
+
+    .OB-blogs .OB-box-container .OB-box .OB-content h3 {
+        font-size: 20px;
+    }
+
+    .OB-blogs .OB-box-container .OB-box .OB-content p {
+        font-size: 14px;
+    }
+}
+
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */
