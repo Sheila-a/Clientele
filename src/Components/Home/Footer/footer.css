@@ -27,6 +27,11 @@
   /* margin-left: 5vh; */
 }
 
+.footer-p a {
+  text-decoration: none;
+  color: #dadada;
+}
+
 .footer-p {
   font-size: 13px;
   line-height: 2;
@@ -35,6 +40,7 @@
 .bf1 {
   /* flex: 1; */
   width: 20%;
+  margin-left: 6vh;
 }
 
 .footer-h3 {
@@ -94,7 +100,9 @@
 /* @media (min-width: 270px) and (max-width: 320px) {} */
 
 @media (min-width: 320px) and (max-width: 430px) {
-
+  .bottom-container {
+    margin-top: 50vh;
+  }
 
   .bottom-flex {
     display: flex;

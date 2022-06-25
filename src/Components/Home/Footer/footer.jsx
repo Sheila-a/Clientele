@@ -4,6 +4,7 @@ import FB from "../../../Images/FB.png";
 import IG from "../../../Images/IG.png";
 import YT from "../../../Images/YT.png";
 import TW from "../../../Images/twitter.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,9 +14,13 @@ const Footer = () => {
           <div className="bf1">
             <h3 className="footer-h3"> MHS</h3>
             <p className="footer-p">
-              See a Doctor <br />
-              Submit Sample <br /> Work for Us <br /> Contact <br /> Terms and
-              Condition
+              <p>See a Doctor</p>
+              <p>Submit Sample</p>
+              <p>
+                <Link to="/career"> Work for Us</Link>
+              </p>
+              <p>Contact</p>
+              <p>Terms and Condition</p>
             </p>
           </div>
           <div className="bf2">
