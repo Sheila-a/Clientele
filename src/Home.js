@@ -24,9 +24,9 @@ const Home = () => {
       {/* Not Approved */}
       <Resource />
       <Touch />
+      <RWU />
       {/* Approved */}
       {/* <OB /> */}
-      <RWU />
       {/* <Footer /> */}
     </div>
   );
