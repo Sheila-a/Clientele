@@ -101,7 +101,8 @@
 
 @media (min-width: 320px) and (max-width: 430px) {
   .bottom-container {
-    margin-top: 115vh;
+    margin-top: 120vh;
+    margin-bottom: 0vh;
   }
 
   .bottom-flex {
