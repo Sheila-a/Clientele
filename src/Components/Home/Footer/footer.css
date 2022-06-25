@@ -107,6 +107,7 @@
   .bottom-container {
     /* margin-top: 50vh; */
     margin-top: 90vh;
+    position: absolute;
   }
 
   .bottom-flex {
@@ -125,7 +126,7 @@
   }
 
   .bf2 {
-    width: 70%;
+    width: 50%;
     margin-bottom: 3vh;
     margin-left: 4vh;
   }
@@ -137,7 +138,7 @@
   }
 
   .bf4 {
-    width: 74%;
+    width: 54%;
     margin-left: 6vh;
   }
 
@@ -172,7 +173,7 @@
   }
 
   .footer-hr {
-    border-bottom: 0.5px solid #9E9E9E;
+    border-bottom: 5px solid #9E9E9E;
     /* position: absolute; */
   }
 }
