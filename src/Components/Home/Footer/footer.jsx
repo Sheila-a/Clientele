@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="bottom-flex-MQ">
             <div className="bf1">
               <h3 className="footer-h3"> MHS</h3>
-              <p className="footer-p">
+              <p className="footer-p footer-pS">
                 <p>See a Doctor</p>
                 <p>Submit Sample</p>
                 <p>
@@ -26,12 +26,7 @@ const Footer = () => {
             </div>
             <div className="bf2">
               <h3 className="footer-h3">Support</h3>
-              {/* <ul>
-              <li>Help</li>
-              <li>FAQs</li>
-            </ul> */}
-
-              <p className="footer-p">
+              <p className="footer-p footer-pS">
                 <p> Help </p>
                 <p> FAQs</p>
                 <p> Help </p>
@@ -47,10 +42,13 @@ const Footer = () => {
               <li>Our Blog</li>
               <li>Educational</li>
             </ul> */}
-              <p className="footer-p">
-                Patient Resources <br />
-                Our Blog <br />
-                Educational
+              <p className="footer-p footer-pS">
+                <p>Patient Resources</p>
+                <p>Our Blog</p>
+                <p>Educational</p>
+                <p>Patient Resources</p>
+                <p>Our Blog</p>
+                <p>Educational</p>
               </p>
             </div>
             <div className="bf4">
