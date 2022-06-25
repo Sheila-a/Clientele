@@ -24,7 +24,7 @@ const Footer = () => {
                 <p>Terms and Condition</p>
               </p>
             </div>
-            <div className="bf2">
+            {/* <div className="bf2">
               <h3 className="footer-h3">Support</h3>
               <p className="footer-p footer-pS">
                 <p> Help </p>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <p> Help </p>
                 <p> FAQs</p>
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="bottom-flex-MQ">
             <div className="bf3">
