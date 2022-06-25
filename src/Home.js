@@ -9,10 +9,11 @@ import OB from "./Components/Home/Our-Blog/OB";
 import RWU from "./Components/Home/Reg-W-Us/RWU";
 import React from "react";
 import "aos/dist/aos.css";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home">
       {/* Approved */}
       <Navbar />
       {/* Approved */}
