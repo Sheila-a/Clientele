@@ -102,20 +102,25 @@
 
     .homeo-origin,
     .homeo-origin-2 {
-        background-position: 17vh 8vh;
+        background-position: 18vh 6.5vh;
 
     }
 
     .homeo-origin-1,
     .homeo-origin-3 {
-        background-position: 17vh 10vh;
+        background-position: 18vh 14vh;
         padding: 6vh 0;
+    }
+
+    .homeo-title1 {
+        margin-left: 0;
+        font-size: 20px;
+        margin-top: -5vh;
     }
 
     .homeo-title {
         margin-left: 0;
         font-size: 20px;
-        margin-top: -5vh;
     }
 
     .homeo-text {
