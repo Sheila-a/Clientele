@@ -200,7 +200,7 @@ const Career = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer className="BC-CAR" />
     </div>
   );
 };

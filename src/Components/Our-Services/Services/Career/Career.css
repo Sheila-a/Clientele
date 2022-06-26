@@ -157,6 +157,10 @@
 /* @media (min-width: 270px) and (max-width: 320px) {} */
 
 @media (min-width: 320px) and (max-width: 430px) {
+    .BC-CAR {
+        margin-top: 0vh;
+    }
+
     .career {
         margin-top: 16vh;
         background-image: url(../../../../Images/Water20.png);
