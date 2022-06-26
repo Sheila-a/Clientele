@@ -92,7 +92,7 @@ a {
   margin-right: 225px;
   color: var(--first-color);
   font-weight: 700;
-  text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
+  text-shadow: .15rem .15rem 0 rgba(0, 0, 0, .2);
 
   /* width: 1000px; */
 }
