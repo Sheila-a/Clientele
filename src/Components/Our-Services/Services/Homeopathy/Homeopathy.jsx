@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../../Home/Navbar/Navbar";
 import "./Homeopathy.css";
-import Footer from "../../../Home/Footer/footer";
+// import Footer from "../../../Home/Footer/footer";
 
 const Homeopathy = () => {
   return (
@@ -68,10 +68,8 @@ const Homeopathy = () => {
             pariatur omnis eveniet placeat earum.
           </p>
         </div>
-        {/* <br />
-        <br /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
