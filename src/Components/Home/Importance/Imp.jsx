@@ -27,10 +27,15 @@ const Imp = () => {
             autem? Impedit quod libero pariatur ut, aperiam iste earum at
             tempore dolorum, perspiciatis non.
           </p>
+
           <span className="OB-btn">
             <Link to="/register">
               Register <span className="fas fa-chevron-right"></span>
             </Link>
+
+          <span className="">
+            <Link to="/register">Register</Link>
+
           </span>
         </div>
       </div>
