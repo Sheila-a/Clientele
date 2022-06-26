@@ -1,12 +1,10 @@
 import React from "react";
 import "./About.css";
-import { Link } from "react-router-dom";
 import DocBg from "../../Images/doctorbg.png";
 import Navbar from "../Home/Navbar/Navbar";
 import Footer from "../Home/Footer/footer";
 import GIF1 from "../../Images/Doctors.gif";
 import GIF2 from "../../Images/COVID.gif";
-import GIF3 from "../../Images/CONTRA.gif";
 
 const About = () => {
   return (
