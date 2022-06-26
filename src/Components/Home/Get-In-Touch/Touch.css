@@ -27,7 +27,7 @@
 
 .Touch-left {
   flex: 1;
-  margin-left: 8vh;
+  margin-left: 13vh;
   /* To flip images ==> */
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
@@ -80,7 +80,7 @@
   margin-bottom: 20px;
 }
 
-.BTN {
+/* .BTN {
   margin: 20px 0px 5px 260px;
   border-radius: 3px;
   padding: 5px 15px;
@@ -92,7 +92,7 @@
 .BTN:hover {
   color: var(--first-color);
   background-color: white;
-}
+} */
 
 .Touch-btn {
   display: inline-block;
@@ -124,6 +124,7 @@
 .Touch-btn:hover {
   background: var(--second-color);
   color: #fff;
+  box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
 }
 
 .Touch-btn:hover span {

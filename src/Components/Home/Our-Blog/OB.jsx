@@ -8,14 +8,19 @@ import IMG3 from "../../../Images/steth_laptop.png";
 
 const OB = () => {
   return (
-    <div className="OB">
+    <div className="OB" data-aos="fade-up" data-aos-duration="1500">
       <section className="OB-blogs" id="OB-blogs">
         <h1 className="OB-heading">
           Our <span>blogs</span>
         </h1>
 
         <div className="OB-box-container">
-          <div className="OB-box">
+          <div
+            className="OB-box"
+            data-aos="fade-out"
+            data-aos-duration="1000"
+            // data-aos-anchor-placement="center-bottom"
+          >
             <div className="OB-images">
               <img src={IMG1} alt="" className="OB-image" />
             </div>
@@ -38,7 +43,12 @@ const OB = () => {
               </a>
             </div>
           </div>
-          <div className="OB-box">
+          <div
+            className="OB-box"
+            data-aos="fade-out"
+            data-aos-duration="3000"
+            // data-aos-anchor-placement="center-bottom"
+          >
             <div className="OB-images">
               <img src={IMG2} alt="" className="OB-image" />
             </div>
@@ -61,7 +71,12 @@ const OB = () => {
               </a>
             </div>
           </div>
-          <div className="OB-box">
+          <div
+            className="OB-box"
+            data-aos="fade-out"
+            data-aos-duration="5000"
+            // data-aos-anchor-placement="center-bottom"
+          >
             <div className="OB-images">
               <img src={IMG3} alt="" className="OB-image" />
             </div>

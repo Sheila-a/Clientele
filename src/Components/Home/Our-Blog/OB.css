@@ -29,10 +29,11 @@ section {
 .OB-heading {
     text-align: center;
     padding-bottom: 2rem;
-    text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
+    text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
     text-transform: uppercase;
     color: var(--second-color);
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 40px;
     letter-spacing: .4rem;
 }
 
@@ -69,6 +70,8 @@ section {
 .OB-btn:hover {
     background: var(--second-color);
     color: #fff;
+
+    box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
 }
 
 .OB-btn:hover span {
@@ -172,8 +175,8 @@ section {
 
 @media (min-width: 320px) and (max-width: 430px) {
     .OB {
-        background-size: 500%;
-        height: 100vh;
+        background-size: 570%;
+        height: 190vh;
     }
 
     .OB-heading {

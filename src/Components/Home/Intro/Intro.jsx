@@ -18,7 +18,9 @@ const Intro = () => {
             <div className="Welcome">Welcome to</div>
             <div>
               <p className="Name">
-                <b>MARIAN </b>
+                <b>
+                  MA<span>RI</span>AN
+                </b>
               </p>
               <p className="NameSub">Homeopathic Sanatorium </p>
             </div>

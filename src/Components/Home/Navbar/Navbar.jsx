@@ -7,10 +7,13 @@ const Navbar = ({ open }) => {
   return (
     <div className="Nav" data-aos="fade-down" data-aos-duration="1000">
       <div className="Navbar">
-        <p className="NavCon">
+        {/* <p className="NavCon">
           <Link to="/login">Login</Link>
-        </p>
-        <p className="NavCon">
+        </p> */}
+        {/* <p className="NavCon">
+          <Link to="/register">Register</Link>
+        </p> */}
+        <p className="Navtrial">
           <Link to="/register">Register</Link>
         </p>
       </div>
@@ -28,8 +31,17 @@ const Navbar = ({ open }) => {
           </Link>
         </svg>
 
-        <h2 className="NavChild1">MARIAN HOMEOPATHIC SANATORIUM</h2>
-        <h2 className="NavChild1hide">M H S</h2>
+        <Link to="/">
+          <h2 className="NavChild1">
+            MARIAN <span>HOMEOPATHIC</span> SANATORIUM
+          </h2>
+        </Link>
+
+        <Link to="/">
+          <h2 className="NavChild1hide">
+            M <span> H </span>S
+          </h2>
+        </Link>
         <Burger />
 
         {/* <div className="NavChild11">

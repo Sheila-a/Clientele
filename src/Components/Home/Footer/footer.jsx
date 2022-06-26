@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="tog">
-      <div class="bottom-container">
+      <div className="bottom-container">
         <div className="bottom-flex">
           <div className="bottom-flex-MQ">
             <div className="bf1">
               <h3 className="footer-h3"> MHS</h3>
-              <p className="footer-p footer-pS">
+              <div className="footer-p footer-pS">
                 <p>See a Doctor</p>
                 <p>Submit Sample</p>
                 <p>
@@ -22,34 +22,30 @@ const Footer = () => {
                 </p>
                 <p>Contact</p>
                 <p>Terms and Condition</p>
-              </p>
+              </div>
             </div>
             <div className="bf2">
               <h3 className="footer-h3">Support</h3>
-              <p className="footer-p footer-pS">
+              <div className="footer-p footer-pS">
                 <p> Help </p>
                 <p> FAQs</p>
                 <p> Help </p>
                 <p> FAQs</p>
-              </p>
+              </div>
             </div>
           </div>
           <div className="bottom-flex-MQ">
             <div className="bf3">
               <h3 className="footer-h3">Resources</h3>
-              {/* <ul>
-              <li>Patient resources</li>
-              <li>Our Blog</li>
-              <li>Educational</li>
-            </ul> */}
-              <p className="footer-p footer-pS">
+
+              <div className="footer-p footer-pS">
                 <p>Patient Resources</p>
                 <p>Our Blog</p>
                 <p>Educational</p>
                 <p>Patient Resources</p>
                 <p>Our Blog</p>
                 <p>Educational</p>
-              </p>
+              </div>
             </div>
             <div className="bf4">
               <div>
@@ -95,7 +91,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="footer-hr"></div>
+        <div className="footer-hr"></div>
         <p className="footer-note">
           © 2022 Merien Hospitals. All rights reserved.
         </p>

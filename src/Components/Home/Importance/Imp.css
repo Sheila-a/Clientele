@@ -22,7 +22,7 @@
   position: relative;
   justify-content: center;
   /* margin-right: -30vh; */
-  margin: 32vh -30vh 12vh 0;
+  margin: 32vh -15vh 12vh 0;
   /* margin-top: 25vh; */
   /* height: auto;
   min-height: 100%; */
@@ -80,7 +80,7 @@
   margin-bottom: 40px;
 }
 
-.Imp-btn {
+/* .Imp-btn {
   border-radius: 3px;
   padding: 5px 15px;
   margin: auto 5px;
@@ -98,7 +98,7 @@
 
 .Imp-btn a {
   color: white;
-}
+} */
 
 /* MEDIA QUERY */
 /* PHONE */
