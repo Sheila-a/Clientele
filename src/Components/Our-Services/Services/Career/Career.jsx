@@ -98,7 +98,7 @@ const Career = () => {
               <div>
                 <label for="National-Diploma" className="Education">
                   <input type="radio" name="Qualifications" />
-                  National Diploma
+                  <span>National Diploma</span>
                 </label>
               </div>
               <div>
