@@ -2,7 +2,7 @@ import React from "react";
 import "./Career.css";
 import "./Career";
 import Navbar from "../../../Home/Navbar/Navbar";
-// import Footer from "../../../Home/Footer/footer";
+import Footer from "../../../Home/Footer/footer";
 import HIRE from "../../../../Images/we-are-hiring.png";
 import HIRE2 from "../../../../Images/hiring.png";
 
@@ -200,7 +200,7 @@ const Career = () => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
