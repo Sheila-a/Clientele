@@ -24,6 +24,54 @@
     color: var(--first-color);
 }
 
+
+.RWU-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    /* padding: 0.5rem; */
+    padding: 4.5px;
+    padding-left: 10px;
+    border: 1px solid var(--first-color);
+    border-radius: 4px;
+    box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+
+    cursor: pointer;
+    /* font-size: 1.7rem; */
+    font-size: 11px;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.RWU-btn a {
+    color: var(--first-color);
+}
+
+.RWU-btn span {
+    padding: 5px 6px;
+    border-radius: 3px;
+    background: var(--first-color);
+    color: #fff;
+    margin-left: 0.5rem;
+
+}
+
+.RWU-btn:hover {
+    background: var(--second-color);
+    box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
+}
+
+.RWU-btn:hover a {
+    color: #fff;
+}
+
+.RWU-btn:hover span {
+    color: var(--second-color);
+    background: #fff;
+    margin-left: 1rem;
+    transition: .3s ease-in;
+}
+
+
 .Eli {
     width: 300px;
     right: 2vh;
@@ -51,6 +99,10 @@
 /* @media (min-width: 270px) and (max-width: 320px) {} */
 
 @media (min-width: 320px) and (max-width: 430px) {
+    .RWU {
+        margin-top: 5vh;
+    }
+
     .RWU-h3 {
         font-size: 22px;
     }
@@ -59,8 +111,40 @@
         font-size: 13px;
     }
 
-    .Intro-btn {
+
+    .RWU-btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 4.5px;
+        padding-left: 10px;
+        border: 2px solid var(--first-color);
+        border-radius: .5rem;
+        box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+        color: var(--second-color);
+        cursor: pointer;
         font-size: 11px;
+        background: #fff;
+    }
+
+    .RWU-btn span {
+        padding: 5px 6px;
+        border-radius: 3px;
+        background: var(--first-color);
+        color: #fff;
+        margin-left: 0.5rem;
+
+    }
+
+    .RWU-btn:hover {
+        background: var(--second-color);
+        color: #fff;
+    }
+
+    .RWU-btn:hover span {
+        color: var(--second-color);
+        background: #fff;
+        margin-left: 1rem;
+        transition: .3s ease-in;
     }
 }
 

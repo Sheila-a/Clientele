@@ -20,34 +20,45 @@
 .Navbar {
   height: 6.5vh;
   background-color: var(--second-color);
-  /* background-image: linear-gradient(to right, red, yellow); */
-
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  justify-content: flex-end;
-  padding-right: 125px;
-  overflow: hidden;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
+  /* justify-content: flex-end; */
+  /* padding-right: 125px; */
+  /* overflow: hidden; */
 }
 
 .Navbar a {
-  float: left;
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 400;
+  display: inline-block;
+  /* float: left;
+  letter-spacing: 5px; */
 }
 
-.Navbar a:hover {
+.Navtrial a {
+  padding: 5px 12px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  margin-left: 17vh;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.Navtrial a:hover {
   background-color: #fff;
   color: var(--second-color);
+  padding: 8.5px 12px;
+
+}
+
+
+
+.Navbar a:hover {
+  /* background-color: #fff;
+  color: var(--second-color);
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 500; */
 }
 
 a {
@@ -55,8 +66,11 @@ a {
   color: black;
 }
 
-.NavCon {
-  font-weight: 300;
+.NavCon:hover {
+  /* background-color: #fff;
+  color: var(--second-color);
+  cursor: pointer;
+  font-weight: 500; */
 }
 
 .NavChild {
@@ -67,6 +81,8 @@ a {
   /* justify-content: flex-end; */
 }
 
+
+
 .bi-boxes {
   margin-right: 20px;
   margin-left: 10vh;
@@ -74,9 +90,15 @@ a {
 
 .NavChild1 {
   margin-right: 225px;
-  color: #014e49;
+  color: var(--first-color);
   font-weight: 700;
+  text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
+
   /* width: 1000px; */
+}
+
+.NavChild1 span {
+  color: #014e49;
 }
 
 .NavChild1hide {
@@ -244,7 +266,7 @@ a {
   }
 
   .bi-boxes {
-    margin: auto auto auto 2vh;
+    margin: auto auto auto 1vh;
     width: 7%;
   }
 
@@ -258,12 +280,26 @@ a {
   }
 
   .NavChild1hide {
-    margin-right: 30vh;
+    margin-right: 33vh;
     color: #014e49;
     font-weight: 700;
     font-size: 3vh;
     display: flex;
+    letter-spacing: 5px;
   }
+
+  .NavChild1hide span {
+    color: var(--first-color);
+  }
+
+  /* .NavChild1 {
+    margin-right: 225px;
+    font-weight: 700;
+    text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
+   
+  }
+  
+ */
 
   .Search {
     visibility: visible;

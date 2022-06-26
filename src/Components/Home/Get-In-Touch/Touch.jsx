@@ -37,7 +37,9 @@ const Touch = () => {
             {/* <p className="Form-title">Your message</p>
             <input type="text" className="msg-input" /> */}
           </form>
-          <button className="BTN">Submit</button>
+          <button className="Touch-btn">
+            Submit <span className="fas fa-chevron-right"></span>
+          </button>
         </div>
       </div>
     </div>
