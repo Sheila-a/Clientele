@@ -3,14 +3,14 @@ import Register from "./Components/Register/Register";
 import Home from "./Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./Components/About/About";
-import Services from "./Components/Our Services/Services";
+import Services from "./Components/Our-Services/Services";
 import Contact from "./Components/Contact/Contact";
-import Career from "./Components/Our Services/Services/Career/Career";
-import Consultation from "./Components/Our Services/Services/Consultation/Consultation";
-import Diagnosis from "./Components/Our Services/Services/Diagnosis/Diagnosis";
-import FDoc from "./Components/Our Services/Services/For Doctors/FDoc";
-import Homeopathy from "./Components/Our Services/Services/Homeopathy/Homeopathy";
-import PTherapy from "./Components/Our Services/Services/Physical Therapy/PTherapy";
+import Career from "./Components/Our-Services/Services/Career/Career";
+import Consultation from "./Components/Our-Services/Services/Consultation/Consultation";
+import Diagnosis from "./Components/Our-Services/Services/Diagnosis/Diagnosis";
+import FDoc from "./Components/Our-Services/Services/For Doctors/FDoc";
+import Homeopathy from "./Components/Our-Services/Services/Homeopathy/Homeopathy";
+import PTherapy from "./Components/Our-Services/Services/Physical Therapy/PTherapy";
 import Appointment from "./Components/Appointment/Appointment";
 
 const App = () => {
