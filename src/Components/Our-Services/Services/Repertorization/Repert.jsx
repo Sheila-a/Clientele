@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../../Home/Navbar/Navbar";
-import Footer from "../../../Home/Footer/footer";
+// import Footer from "../../../Home/Footer/footer";
 import "./Repert.css";
 
 const Repertory = () => {
