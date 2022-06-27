@@ -9,12 +9,12 @@ import Contact from "./Components/Contact/Contact";
 import Covid from "./Components/Covid-19/CV_19";
 import Career from "./Components/Our-Services/Services/Career/Career";
 import Consultation from "./Components/Our-Services/Services/Consultation/Consultation";
-import Diagnosis from "./Components/Our-Services/Services/Diagnosis/Diagnosis";
 import FDoc from "./Components/Our-Services/Services/For Doctors/FDoc";
 import Homeopathy from "./Components/Our-Services/Services/Homeopathy/Homeopathy";
 import PTherapy from "./Components/Our-Services/Services/Physical-Therapy/PTherapy";
 import Appointment from "./Components/Appointment/Appointment";
 import CEvents from "./Components/About-Us/Community-Events/C-Events";
+import Repertory from "./Components/Our-Services/Services/Repertorization/Repert";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/career" element={<Career />} />
           <Route path="/consultation" element={<Consultation />} />
-          <Route path="/diagnosis" element={<Diagnosis />} />
+          <Route path="/repertorization" element={<Repertory />} />
           <Route path="/for-doctors" element={<FDoc />} />
           <Route path="/homeopathy" element={<Homeopathy />} />
           <Route path="/physical-therapy" element={<PTherapy />} />

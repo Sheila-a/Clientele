@@ -4,8 +4,29 @@ import React from "react";
 import Navbar from "../Home/Navbar/Navbar";
 // import Stuff11 from "../Home/Stuff11/Stuff11";
 import "./Appointment.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const Appointment = () => {
+function Appointment() {
+  let promise = () => {
+    const resolveAfter2Sec = new Promise((resolve) => {
+      setTimeout(resolve, 3000);
+    });
+    toast.promise(resolveAfter2Sec, {
+      pending: "Booking is pending",
+      success: "Booked Successfully!",
+      autoClose: false,
+      closeOnClick: true,
+    });
+  };
+  // const notify = () => {
+  //   // content,position,type(success, info, warning,error),autoclose,
+  //   toast.success("Booked Successfully!", {
+  //     position: toast.POSITION.TOP_RIGHT,
+  //     autoClose: false,
+  //     closeOnClick: true,
+  //   });
+  // };
   return (
     <div className="login">
       <Navbar />
@@ -63,9 +84,10 @@ const Appointment = () => {
         </label>
         <br />
         <br />
-        <button className="login-btn  ">
+        <button className="login-btn" onClick={promise}>
           Submit <span className="fas fa-chevron-right"></span>
         </button>
+        <ToastContainer />
       </div>
       <br />
       <br />
@@ -74,6 +96,6 @@ const Appointment = () => {
       {/* <Footer /> */}
     </div>
   );
-};
+}
 
 export default Appointment;

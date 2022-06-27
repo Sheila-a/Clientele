@@ -31,11 +31,7 @@ const Imp = () => {
           <span className="OB-btn">
             <Link to="/register">
               Register <span className="fas fa-chevron-right"></span>
-<<<<<<< HEAD
-            </Link>  
-=======
             </Link>
->>>>>>> Sheila
           </span>
         </div>
       </div>

@@ -1,0 +1,41 @@
+:root {
+    --first-color: #367c77;
+    --second-color: #174b47;
+    --third-color: #bae4e0;
+    --hover-color: #faefef;
+    --dropdown-color: #bde0de;
+}
+
+.Rep {
+    height: 150vh;
+    padding-top: 17vh;
+    background-color: rgba(192, 212, 207, 0.856);
+}
+
+.Rep-Mega-Title {
+    text-align: center;
+    color: var(--second-color);
+    margin-top: 10vh;
+    line-height: 1.5;
+}
+
+.Rep-Mega-Title h1 {
+    text-shadow: .2rem .2rem 0 rgba(0, 0, 0, .2);
+    font-size: 60px;
+    letter-spacing: 2.5px;
+}
+
+.Rep-Mega-Title h2 {
+    color: var(--first-color);
+    font-size: 30px;
+}
+
+.Rep-Text {
+    margin: 5vh 14vh 0vh 20vh;
+}
+
+.Rep-Text p {
+    margin-bottom: 5vh;
+    line-height: 2;
+    font-size: 15.5px;
+}
