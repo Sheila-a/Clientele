@@ -35,6 +35,11 @@ const UL = styled.div`
       flex-flow: column nowrap;
     }
 
+    .DList {
+      padding-top: 2vh;
+      padding-top: 2vh;
+    }
+
     .span {
       margin-left: 2vh;
       margin-top: 0;
@@ -69,7 +74,7 @@ const RightNav = ({ open }) => {
               <Link to="/consultation">Consultation</Link>
             </div>
             <div className="DList">
-              <Link to="/diagnosis">Diagnosis</Link>
+              <Link to="/repertorization">Repertorization</Link>
             </div>
             <div className="DList">
               <Link to="/for-doctors">For Doctors</Link>
