@@ -51,13 +51,13 @@ const RightNav = ({ open }) => {
           <p className="NavChildList">About Us</p>
           <div className="dropdown-content span">
             <div className="DList">
-              <Link to="/about">Meet Our Doctor</Link>
+              <Link to="/meet-our-doctor">Meet Our Doctor</Link>
             </div>
             <div className="DList">
-              <Link to="">Meet the Staff</Link>
+              <Link to="/meet-our-staff">Meet the Staff</Link>
             </div>
             <div className="DList">
-              <Link to="/about">Community events</Link>
+              <Link to="/community-events">Community events</Link>
             </div>
           </div>
         </div>
@@ -86,7 +86,7 @@ const RightNav = ({ open }) => {
           </div>
         </div>
 
-        <Link to="/our-services">
+        <Link to="/covid-19-policy">
           <p className="NavChildList">Covid-19 Policy</p>
         </Link>
 
@@ -103,7 +103,7 @@ const RightNav = ({ open }) => {
         <br />
         <br />
         {/* <p>Welcome</p> */}
-      </div> 
+      </div>
     </UL>
   );
 };

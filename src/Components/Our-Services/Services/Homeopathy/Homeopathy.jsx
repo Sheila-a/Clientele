@@ -15,7 +15,7 @@ const Homeopathy = () => {
         <br />
         <br />
         <div className="homeo-origin">
-          <h2 className="homeo-title">WHAT IS HOMEOPATHY ?</h2>
+          <h2 className="homeo-title1">WHAT IS HOMEOPATHY ?</h2>
           <br />
           <p className="homeo-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos totam
