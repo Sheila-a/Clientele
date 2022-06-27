@@ -1,7 +1,7 @@
 import React from "react";
 import "./PTherapy.css";
 import Navbar from "../../../Home/Navbar/Navbar";
-import Footer from "../../../Home/Footer/footer";
+// import Footer from "../../../Home/Footer/footer";
 
 const PTherapy = () => {
   return (
