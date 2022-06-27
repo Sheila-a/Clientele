@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import DocBg from "../../../Images/doctorbg.png";
 import Navbar from "../../Home/Navbar/Navbar";
-import Footer from "../../Home/Footer/footer";
+// import Footer from "../../Home/Footer/footer";
 import GIF1 from "../../../Images/Doctors.gif";
 import GIF2 from "../../../Images/COVID.gif";
 
