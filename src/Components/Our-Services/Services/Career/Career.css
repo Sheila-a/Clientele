@@ -8,8 +8,6 @@
 
 .career {
     text-align: center;
-    /* padding: 5vh 25vh; */
-    /* background-image: url(../../../../Images/Water.png); */
     background-image: url(../../../../Images/Water20.png);
     background-size: 60%;
     background-position: 25vh 70vh;
@@ -133,6 +131,7 @@
     margin: 2vh 2vh 2vh 0vh;
 }
 
+
 .Avail input {
     margin: 2vh 2vh 1vh 0vh;
 
@@ -158,6 +157,10 @@
 /* @media (min-width: 270px) and (max-width: 320px) {} */
 
 @media (min-width: 320px) and (max-width: 430px) {
+    .BC-CAR {
+        margin-top: 0vh;
+    }
+
     .career {
         margin-top: 16vh;
         background-image: url(../../../../Images/Water20.png);
@@ -188,7 +191,7 @@
     }
 
     .career-form-div {
-        margin: 2vh 5vh;
+        margin: 2vh 0vh 2vh 5vh;
     }
 
     .career-title {
@@ -198,6 +201,7 @@
     .career-input {
         padding: 1vh;
         font-size: 12px;
+        width: 320px;
     }
 
     .Education,

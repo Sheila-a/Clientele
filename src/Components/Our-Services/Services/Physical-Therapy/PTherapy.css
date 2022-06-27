@@ -1,6 +1,7 @@
 .ptherapy {
     text-align: center;
     background-color: rgb(251, 255, 255);
+    margin-top: 16vh;
 }
 
 .ptherapy-mega-title {
@@ -75,3 +76,51 @@
     padding: 0 20vh;
 
 }
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .ptherapy-mega-title {
+        font-size: 29px;
+        text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
+        margin-top: -5vh;
+    }
+
+    .ptherapy-origin,
+    .ptherapy-origin-1,
+    .ptherapy-origin-2,
+    .ptherapy-origin-3 {
+        margin: 0 5vh;
+        padding: 5vh 3vh;
+        /* margin-left: 5vh; */
+    }
+
+    .ptherapy-origin,
+    .ptherapy-origin-2 {
+        background-size: 20%;
+        background-position: 0vh 3vh;
+    }
+
+    .ptherapy-origin-1,
+    .ptherapy-origin-3 {
+        background-size: 20%;
+        background-position: 28vh 40vh;
+        padding-bottom: 7vh;
+
+    }
+
+
+
+    .ptherapy-text {
+        margin: 0;
+        padding: 0;
+        line-height: 2;
+        font-size: 12px;
+    }
+}
+
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */

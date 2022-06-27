@@ -6,6 +6,7 @@
     background-attachment: scroll;
     background-repeat: repeat-y; */
     background-color: rgb(251, 255, 255);
+    margin-top: 16vh;
 }
 
 .homeo-mega-title {
@@ -80,3 +81,58 @@
     margin-bottom: 0;
 
 }
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .homeo-mega-title {
+        font-size: 29px;
+        text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, .2);
+        margin-top: -5vh;
+    }
+
+    .homeo-origin,
+    .homeo-origin-1,
+    .homeo-origin-2,
+    .homeo-origin-3 {
+        background-size: 20%;
+    }
+
+    .homeo-origin,
+    .homeo-origin-2 {
+        background-position: 18vh 6.5vh;
+
+    }
+
+    .homeo-origin-1,
+    .homeo-origin-3 {
+        background-position: 18vh 14vh;
+        padding: 6vh 0;
+    }
+
+    .homeo-title1 {
+        margin-left: 0;
+        font-size: 20px;
+        margin-top: -5vh;
+    }
+
+    .homeo-title {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .homeo-text {
+        margin-left: 5vh;
+        padding-right: 5vh;
+        font-size: 12px;
+        line-height: 2;
+        width: 78%;
+        padding-top: 15vh;
+
+    }
+}
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="tog">
-      <div className="bottom-container">
+      <div className="bottom-container BC-CAR">
         <div className="bottom-flex">
           <div className="bottom-flex-MQ">
             <div className="bf1">
