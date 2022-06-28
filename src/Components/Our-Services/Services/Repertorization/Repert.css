@@ -7,9 +7,10 @@
 }
 
 .Rep {
-    height: 150vh;
+    /* height: 150vh; */
     padding-top: 17vh;
-    background-color: rgba(192, 212, 207, 0.856);
+    /* background-color: rgba(192, 212, 207, 0.856); */
+    background-color: rgba(192, 212, 207);
 }
 
 .Rep-Mega-Title {
@@ -39,3 +40,48 @@
     line-height: 2;
     font-size: 15.5px;
 }
+
+.Rep-Text-2 {
+    display: flex;
+    align-items: center;
+    margin: 0vh 14vh 0vh 20vh;
+}
+
+/* MEDIA QUERY */
+/* PHONE */
+/* @media (min-width: 270px) and (max-width: 320px) {} */
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .Rep {
+        /* height: 500vh; */
+    }
+
+    .Rep-Mega-Title {
+        margin-top: 0vh;
+    }
+
+    .Rep-Mega-Title h1 {
+        font-size: 31px;
+        text-shadow: .15rem .15rem 0 rgba(0, 0, 0, .2);
+    }
+
+    .Rep-Mega-Title h2 {
+        font-size: 16px;
+    }
+
+    .Rep-Text {
+        margin: 5vh 5vh 50vh 5vh;
+        text-align: justify;
+    }
+
+    .Rep-Text p {
+        font-size: 12px;
+    }
+
+    .Rep-Foot {
+        padding-top: 5vh;
+    }
+}
+
+/* TABLET */
+/* @media (min-width: 750px) and (max-width: 1024px){} */
