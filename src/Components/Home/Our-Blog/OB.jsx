@@ -38,7 +38,7 @@ const OB = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatem, voluptates!
               </p>
-              <a href="/" className="OB-btn">
+              <a href="/blogs" className="OB-btn">
                 learn more <span className="fas fa-chevron-right"></span>
               </a>
             </div>
@@ -66,7 +66,7 @@ const OB = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatem, voluptates!
               </p>
-              <a href="/" className="OB-btn">
+              <a href="/blogs" className="OB-btn">
                 learn more <span className="fas fa-chevron-right"></span>
               </a>
             </div>
@@ -94,7 +94,7 @@ const OB = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatem, voluptates!
               </p>
-              <a href="/" className="OB-btn">
+              <a href="/blogs" className="OB-btn">
                 learn more <span className="fas fa-chevron-right"></span>
               </a>
             </div>

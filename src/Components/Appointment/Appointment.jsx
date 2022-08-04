@@ -1,9 +1,11 @@
 import React from "react";
-// import Footer from "../Home/Footer/footer";
+import { useRef, useState } from "react";
+import Footer from "../Home/Footer/footer";
 // import Intro from "../Home/Intro/Intro";
 import Navbar from "../Home/Navbar/Navbar";
 // import Stuff11 from "../Home/Stuff11/Stuff11";
 import "./Appointment.css";
+import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -19,6 +21,25 @@ function Appointment() {
       closeOnClick: true,
     });
   };
+
+  const formRef = useRef();
+  const [setDone] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm("MHS", "MHS_0001", formRef.current, "cMO-4Vf59a5tJSHqT")
+
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   // const notify = () => {
   //   // content,position,type(success, info, warning,error),autoclose,
   //   toast.success("Booked Successfully!", {
@@ -33,12 +54,19 @@ function Appointment() {
       <h2 className="login-title" data-aos="fade-down" data-aos-duration="2000">
         Book an Appointment <span>with us!</span>
       </h2>
-      <div className="login-card" data-aos="fade-up" data-aos-duration="1500">
+      <form
+        onSubmit={handleSubmit}
+        ref={formRef}
+        className="login-card"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <input
           type="text"
           className="login-input"
           placeholder="Enter Full Name"
           required
+          name="user_name"
         />
         <br />
         <br />
@@ -47,6 +75,7 @@ function Appointment() {
           type="Email"
           className="login-input"
           placeholder="Enter Email"
+          name="user_email"
           required
         />
         <br />
@@ -56,6 +85,7 @@ function Appointment() {
           type="text"
           className="login-input"
           placeholder="Enter Phone Number"
+          name="user_number"
           required
         />
         <br />
@@ -66,6 +96,7 @@ function Appointment() {
           rows="5"
           className="login-input"
           placeholder="Notes to Doctor"
+          name="message"
           required
         />
         <br />
@@ -88,12 +119,12 @@ function Appointment() {
           Submit <span className="fas fa-chevron-right"></span>
         </button>
         <ToastContainer />
-      </div>
+      </form>
       <br />
       <br />
 
       {/* <Stuff11 /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

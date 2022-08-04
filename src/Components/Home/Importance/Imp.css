@@ -7,10 +7,11 @@
 
 .Importance {
   display: flex;
-  padding: 0px 2vh 0px 13vh;
+  /* padding: 0px 2vh 0px 13vh; */
   height: 100vh;
-  background-image: url(../.././../Images/17973908.jpg);
+  /* background-image: url(../.././../Images/blur50.png); */
   background-size: 100%;
+  background: #fff;
   z-index: 1;
 
 }
@@ -26,6 +27,22 @@
   /* margin-top: 25vh; */
   /* height: auto;
   min-height: 100%; */
+}
+
+.sideIMG {
+  width: 30%;
+  margin-right: 16vh;
+}
+
+.ImpCont {
+  /* margin-bottom: 40px; */
+  /* margin: auto 12vh 40px 12vh; */
+  margin: 0 15vh 0 17vh;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--second-color);
 }
 
 .ImpImg {
@@ -63,42 +80,74 @@
 }
 
 .ImpText {
-  flex: 1;
-  padding: 30vh 0;
-  /* margin-top: -68px; */
-  /* width: 70%; */
+  align-items: center;
+  margin: auto auto;
+  text-align: center;
+  /* color: var(--second-color); */
+
 }
 
 .ImpHead {
-  color: var(--first-color);
-  padding-bottom: 30px;
-}
-
-.ImpCont {
-  text-align: justify;
-  width: 85%;
+  color: #2c062e;
+  text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, 0.315);
+  margin-top: 5vh;
   margin-bottom: 40px;
+  font-size: 40px;
 }
 
-/* .Imp-btn {
+
+
+.IPP-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-right: 10vh;
+  margin-bottom: 10vh;
+  /* padding: 0.5rem; */
+  padding: 4px;
+  padding-left: 15px;
+  /* padding-right: 40px; */
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+
+  cursor: pointer;
+  /* font-size: 1.7rem; */
+  font-size: 15px;
+  background: var(--second-color);
+  white-space: nowrap;
+}
+
+.IPP-btn a {
+  color: #fff;
+}
+
+.IPP-btn span {
+  padding: 5px 6px;
   border-radius: 3px;
-  padding: 5px 15px;
-  margin: auto 5px;
-  background-color: var(--first-color);
-  color: white;
-  font-weight: 500;
+  background: #fff;
+  color: var(--second-color);
+  margin-left: 3rem;
+
 }
 
-.Imp-btn :hover {
-  background-color: white;
-  color: var(--first-color);
-
-  box-shadow: 5px 5px 5px var(--third-color);
+.IPP-btn:hover {
+  background: #fff;
+  box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
 }
 
-.Imp-btn a {
-  color: white;
-} */
+
+.IPP-btn:hover a {
+  color: var(--second-color);
+}
+
+.IPP-btn:hover span {
+  color: #fff;
+  background: var(--second-color);
+  margin-left: 3.5rem;
+  transition: .3s ease-in;
+}
+
+
 
 /* MEDIA QUERY */
 /* PHONE */

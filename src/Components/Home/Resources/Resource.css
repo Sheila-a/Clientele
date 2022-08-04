@@ -6,12 +6,12 @@
 } */
 
 .Resource_wrapper {
-  margin: 25vh 20vh;
+  margin: 25vh 14vh 25vh 14vh;
   z-index: 1;
 }
 
 .Resc_title {
-  color: var(--first-color);
+  color: #fff;
   margin-bottom: 30px;
   text-transform: uppercase;
   font-size: 40px;
@@ -22,22 +22,59 @@
 
 .Resource {
   display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
 }
 
 .Resc_detail {
-  margin-right: 3.3vh;
+  /* margin-right: 3.3vh; */
   border-radius: 10px;
+  width: 41vh;
   box-shadow: 5px 2px 5px 2px var(--third-color);
+  /* background: #fff; */
+  color: #fff;
+  background: #610266;
 }
 
 .Pics {
-  width: 100%;
+  width: 41vh;
+  height: 35vh;
+  object-fit: cover;
 }
 
 .detail_title {
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  /* color: #fff; */
+  color: #610266;
   margin-bottom: 10px;
   text-align: center;
+  /* background: var(--gradient-blend-toRight); */
+  background: #fff;
+  border-radius: 30px;
+  /* margin-right: 5vh;
+  margin-left: 5vh; */
+  /* white-space: nowrap; */
+  /* font-size: 12px; */
+}
+
+.faq {
+  margin-right: 14vh;
+  margin-left: 14vh;
+}
+
+.HP {
+  margin-right: 2vh;
+  margin-left: 2vh;
+}
+
+.ED {
+  margin-right: 4.5vh;
+  margin-left: 4.5vh;
+}
+
+.news {
+  margin-right: 11vh;
+  margin-left: 11vh;
 }
 
 .Resc_content {

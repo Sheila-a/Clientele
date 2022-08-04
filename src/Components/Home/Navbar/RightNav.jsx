@@ -70,18 +70,19 @@ const RightNav = ({ open }) => {
         <div className="dropdown">
           <p className="NavChildList">Our Services</p>
           <div className="dropdown-content span">
+            {" "}
             <div className="DList">
-              <Link to="/consultation">Consultation</Link>
+              <Link to="/homeopathy">Classical Homeopathy</Link>
             </div>
             <div className="DList">
               <Link to="/repertorization">Repertorization</Link>
             </div>
             <div className="DList">
+              <Link to="/consultation">Counselling</Link>
+            </div>
+            {/* <div className="DList">
               <Link to="/for-doctors">For Doctors</Link>
-            </div>
-            <div className="DList">
-              <Link to="/homeopathy">Homeopathy</Link>
-            </div>
+            </div> */}
             <div className="DList">
               <Link to="/physical-therapy">Physical Therapy</Link>
             </div>
