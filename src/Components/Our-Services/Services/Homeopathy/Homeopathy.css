@@ -26,7 +26,8 @@
 
 .homeo-title {
     margin-left: 60vh;
-    color: var(--first-color);
+    /* color: var(--first-color); */
+    color: #2f0231;
 }
 
 .homeo-text {
@@ -54,8 +55,9 @@
     background-position: 20vh 17vh;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    /* background-color: rgb(251, 255, 255); */
-    background-color: rgb(216, 247, 247);
+    /* background-color: rgb(216, 247, 247); */
+    background-color: #945097;
+    color: #fff;
     padding: 6vh;
 }
 
@@ -75,8 +77,9 @@
     background-position: 20vh 17vh;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    /* background-color: rgb(251, 255, 255); */
-    background-color: rgb(216, 247, 247);
+    /* background-color: rgb(216, 247, 247); */
+    color: #fff;
+    background-color: #945097;
     padding: 6vh;
     margin-bottom: 0;
 

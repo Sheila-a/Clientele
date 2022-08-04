@@ -31,10 +31,9 @@ const Imp = () => {
               Health Care Services at its best. We pride ourselves in the
               natural way of Disease and ailment treatment from our trusted
               sources of Homeopathic Medicine. Our aim is to restore health to
-              the sick with quick recovery rate Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Similique. the sick with quick
-              recovery rate Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Similique.
+              the sick in a simple, quick and permanent way. We engage in
+              detecting diseases and their subsequent remedies to annihilate the
+              disease conditions.
             </p>
             <img src={sideImg} alt="" className="sideIMG" />
           </div>

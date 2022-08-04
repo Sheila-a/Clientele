@@ -78,7 +78,7 @@ const RightNav = ({ open }) => {
               <Link to="/repertorization">Repertorization</Link>
             </div>
             <div className="DList">
-              <Link to="/consultation">Counselling</Link>
+              <Link to="/counselling">Counselling</Link>
             </div>
             {/* <div className="DList">
               <Link to="/for-doctors">For Doctors</Link>

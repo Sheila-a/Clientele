@@ -2,15 +2,14 @@ import React from "react";
 import "./Consultation.css";
 import Navbar from "../../../Home/Navbar/Navbar";
 import Footer from "../../../Home/Footer/footer";
+import { Link } from "react-router-dom";
 
-const Consultation = () => {
+const Counselling = () => {
   return (
     <div className="">
       <Navbar />
       <div className="Cons">
         <div className="Cons-text">
-          <h1>CONSULTATION</h1>
-          <br />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error
             numquam consectetur laborum facere dolores reprehenderit laboriosam?
@@ -18,10 +17,16 @@ const Consultation = () => {
           </p>
           <p>Wanna book an Appointment?</p>
           <br />
-          Please fill out the form below...
+          <p>
+            Click on the button below and choose counselling in the dropdown
+          </p>
+          <button className="consult-btn">
+            <Link to="/book-an-appointment">
+              Book an Appointment <span className="fas fa-chevron-right"></span>
+            </Link>
+          </button>
         </div>
-
-        <div className="forma">
+        {/* <div className="forma">
           <form action="">
             <h4>Prefix</h4>
             <br />
@@ -138,11 +143,11 @@ const Consultation = () => {
               <button>Book your Appointment Now !</button>
             </div>
           </form>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
   );
 };
 
-export default Consultation;
+export default Counselling;

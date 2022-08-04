@@ -24,8 +24,9 @@ const Touch = () => {
         >
           <h2 className="Touch-title cent">Sign up for Newsletter</h2>
           <p className="Right-text cent">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            dignissimos beatae minus.
+            {" "}
+            Get recent updates to our services, community hangouts and
+            educational resources by signing up for our Newsletter below.
           </p>
           <form action="" className="Form">
             <p className="Form-title">Fullname</p>

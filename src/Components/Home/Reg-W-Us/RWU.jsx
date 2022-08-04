@@ -10,8 +10,8 @@ function RWU() {
         Book an Appointment today
       </h1>
       <p className="RWU-p" data-aos="fade-up" data-aos-duration="2000">
-        Join us today and get the health treatment you deserve. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Doloribus, molestias.
+        Join us today and get the health treatment you deserve. Remember, we are
+        a medical clinic for all ages.
       </p>
       <button className="RWU-btn" data-aos="fade-up" data-aos-duration="3000">
         <Link to="/book-an-appointment">

@@ -206,6 +206,11 @@ import FB from "../../../Images/FB.png";
 import IG from "../../../Images/IG.png";
 import YT from "../../../Images/YT.png";
 import TW from "../../../Images/twitter.png";
+import WH from "../../../Images/whatsapp2.png";
+import LK from "../../../Images/linkedin.png";
+import pin from "../../../Images/pin.png";
+import gmail from "../../../Images/gmail1.png";
+import phone from "../../../Images/telephone.png";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./footer.css";
 
@@ -418,43 +423,65 @@ const Footers = () => {
           </div>
           <div className="bf4">
             <h3 className="footer-h3">Follow Us</h3>
-            <div className="showcase">
-              <div className="footer-icons">
-                <img
-                  src={FB}
-                  alt=""
-                  className="footer-icn foot-inc
+            <br />
+            <div className="footer-icons">
+              <img
+                src={FB}
+                alt=""
+                className="footer-icn foot-inc
               "
-                />
-                <img
-                  src={YT}
-                  alt=""
-                  className="footer-icn yt foot-inc
+              />
+              <img
+                src={WH}
+                alt=""
+                className="footer-icn foot-inc
+              "
+              />
+              <img
+                src={LK}
+                alt=""
+                className="footer-icn foot-inc
+              "
+              />
+              <img
+                src={YT}
+                alt=""
+                className="footer-icn yt foot-inc
                "
-                />{" "}
-                <img
-                  src={IG}
-                  alt=""
-                  className="footer-icn foot-inc
+              />{" "}
+              <img
+                src={IG}
+                alt=""
+                className="footer-icn foot-inc
                "
-                />
-                <img
-                  src={TW}
-                  alt=""
-                  className="footer-icn yt foot-inc
+              />
+              <img
+                src={TW}
+                alt=""
+                className="footer-icn yt foot-inc
                "
-                />
-              </div>
+              />
+            </div>
+            <div className="showcase">
               <div className="footer-add">
                 <p className="footer-p foot-inc">
+                  <span>
+                    <img src={pin} alt="" className="footer-mini-icon" />
+                  </span>
                   No 1 Christ The King Church View Rd GRA Enugu, Nigeria
                 </p>
               </div>{" "}
-              <p className="footer-p foot-inc footer-add2">
+              <p className="footer-p foot-inc footer-add2 duo">
+                <span>
+                  <img src={gmail} alt="" className="footer-mini-icon " />
+                </span>
                 marianhomeopathicsanatorium@gmail.com
               </p>
               <p className="footer-p foot-inc footer-add3">
-                +234-908-345-7654, +234-810-654-8899
+                <span>
+                  <img src={phone} alt="" className="footer-mini-icon" />
+                </span>
+                +234-905-599-0627, +234-810-654-8899
               </p>{" "}
             </div>
           </div>

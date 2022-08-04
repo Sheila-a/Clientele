@@ -91,6 +91,16 @@ function Appointment() {
         <br />
         <br />
         <br />
+        <select name="" id="" className="login-input">
+          <option value="" selected="selected">
+            - Select an option -
+          </option>
+          <option value="">Counselling </option>
+          <option value="">Diagnosis & Treatment </option>
+        </select>
+        <br />
+        <br />
+        <br />
         <textarea
           cols="10"
           rows="5"
