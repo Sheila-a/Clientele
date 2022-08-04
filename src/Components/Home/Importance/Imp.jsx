@@ -1,7 +1,7 @@
 import React from "react";
 import "./Imp.css";
-import StethLap from "../../../Images/steth_laptop.png";
-import Doc from "../../../Images/doctor_.png";
+// import StethLap from "../../../Images/steth_laptop.png";
+// import Doc from "../../../Images/doctor_.png";
 import sideImg from "../.././../Images/IMG-20220729-WA0004.jpg";
 
 import { Link } from "react-router-dom";

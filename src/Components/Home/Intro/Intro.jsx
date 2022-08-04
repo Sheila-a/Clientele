@@ -3,7 +3,7 @@ import "bootstrap";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./Intro.css";
 import { Link } from "react-router-dom";
-import Flag from "../../../Images/N4L.png";
+// import Flag from "../../../Images/N4L.png";
 import Doc from "../../../Images/intro-pic.png";
 import introLogo from "../../../Images/Footer2.png";
 
