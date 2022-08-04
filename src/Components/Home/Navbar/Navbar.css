@@ -1,10 +1,11 @@
-/* :root {
-  --first-color: #367c77;
-  --second-color: #174b47;
-  --third-color: #bae4e0;
-  --hover-color: #faefef;
-  --dropdown-color: #bde0de;
-} */
+:root {
+  --first-color: #711a75;
+  --third-color: #711a75;
+  --second-color: #711a75;
+  --gradient-blend-top: linear-gradient(#b955c0, #84398a, #711a75);
+  --gradient-blend-bottom: linear-gradient(#6c366e, #84398a, #ea9df0);
+  --gradient-blend-toRight: linear-gradient(to right, #b955c0, #84398a, #711a75);
+}
 
 .Nav {
   /* position: fixed;
@@ -19,7 +20,7 @@
 
 .Navbar {
   height: 6.5vh;
-  background-color: var(--second-color);
+  background-image: var(--gradient-blend-top);
   /* display: flex; */
   align-items: center;
   /* justify-content: flex-end; */
@@ -38,11 +39,11 @@
   text-align: center;
   justify-content: center;
   color: rgb(255, 255, 255);
-  letter-spacing: 5px;
-  margin-left: 17vh;
+  letter-spacing: 6px;
+  margin-left: 15vh;
   text-decoration: none;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .Navtrial a:hover {
@@ -74,7 +75,7 @@ a {
 }
 
 .NavChild {
-  height: 10vh;
+  height: 12vh;
   background-color: white;
   display: flex;
   align-items: center;
@@ -83,22 +84,27 @@ a {
 
 
 
-.bi-boxes {
-  margin-right: 20px;
-  margin-left: 10vh;
+.LOGO {
+  /* margin-right: 10px; */
+  margin-left: -2vh;
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
 }
 
 .NavChild1 {
-  margin-right: 225px;
+  margin-right: 130px;
+  letter-spacing: 2px;
+  /* color: #a38a9f; */
   color: var(--first-color);
   font-weight: 700;
-  text-shadow: .15rem .15rem 0 rgba(0, 0, 0, .2);
+  text-shadow: .1rem .1rem 0 rgba(0, 0, 0, 0.486);
 
   /* width: 1000px; */
 }
 
 .NavChild1 span {
-  color: #014e49;
+  color: #700475;
 }
 
 .NavChild1hide {
@@ -118,17 +124,27 @@ a {
 }
 
 .NavChild11 a {
-  color: #014e49;
+  color: var(--first-color);
+}
+
+.NavChild11 a:hover {
+  color: #fff;
 }
 
 .NavChildList {
-  /* margin-right: 25px; */
-  /* width: 15vh; */
-  margin: auto 2vh;
-  font-size: 14px;
-  color: #014e49;
-  font-weight: 500;
+  margin: auto 1.5vh;
+  font-size: 12px;
+  /* color: var(--first-color); */
+  color: #fff;
+  background: var(--gradient-blend-toRight);
+  border-radius: 30px;
+  padding: 10px 12px;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+  font-weight: 700;
   cursor: pointer;
+  letter-spacing: 1.5px;
 }
 
 .dropdown {
@@ -140,8 +156,8 @@ a {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 150px;
-  max-width: 160px;
+  /* min-width: 150px; */
+  /* max-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 2px;
@@ -158,9 +174,11 @@ a {
 }
 
 .DList:hover {
-  background-color: var(--third-color);
+  background-color: var(--first-color);
   color: white;
 }
+
+
 
 .Search {
   width: 20px;

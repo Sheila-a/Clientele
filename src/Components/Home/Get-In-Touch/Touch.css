@@ -13,7 +13,7 @@
 .Touch {
   height: 84.5vh;
   width: 100%;
-  background-color: var(--third-color);
+  /* background-color: var(--third-color); */
   opacity: 0.4;
 }
 
@@ -39,8 +39,11 @@
 
 .Touch-right {
   flex: 1;
-  margin-right: 22vh;
-  margin-top: 10vh;
+  margin-right: 15vh;
+  margin: 0vh 17vh 5vh 0;
+  padding: 5vh;
+  border-radius: 5px;
+  background: #fff;
 }
 
 .cent {
@@ -52,9 +55,7 @@
   margin-bottom: 10px;
 }
 
-.Form {
-  margin-left: 35px;
-}
+
 
 .Form-title {
   color: var(--first-color);
@@ -69,16 +70,15 @@
 .form-input {
   width: 535px;
   height: 30px;
-  border: 1px solid var(--first-color);
+  border: 1px solid var(--second-color);
+  background: #f3e1f7;
   margin-bottom: 30px;
+  padding-left: 2vh;
 }
 
-.msg-input {
-  width: 535px;
-  height: 60px;
-  border: 1px solid var(--first-color);
-  margin-bottom: 20px;
-}
+
+
+
 
 /* .BTN {
   margin: 20px 0px 5px 260px;
@@ -100,7 +100,7 @@
   /* padding: 0.5rem; */
   padding: 4.5px;
   padding-left: 10px;
-  border: 1px solid var(--first-color);
+  border: 1px solid var(--second-color);
   border-radius: .1rem;
   box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
   color: var(--second-color);
@@ -109,20 +109,20 @@
   font-size: 11px;
   background: #fff;
   text-align: center;
-  margin-left: 6vh;
+  /* margin-left: 6vh; */
 }
 
 .Touch-btn span {
   padding: 5px 6px;
   border-radius: 3px;
-  background: var(--first-color);
+  background: var(--second-color);
   color: #fff;
   margin-left: 0.5rem;
 
 }
 
 .Touch-btn:hover {
-  background: var(--second-color);
+  background: var(--first-color);
   color: #fff;
   box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
 }

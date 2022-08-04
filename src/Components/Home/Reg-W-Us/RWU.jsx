@@ -1,7 +1,7 @@
 import React from "react";
 import "./RWU.css";
 import { Link } from "react-router-dom";
-// import ELI from "../../../Images/Ellipse 17.png";
+// import ELI from "../../../Images/Vector-7.png";
 
 function RWU() {
   return (
@@ -18,6 +18,11 @@ function RWU() {
           Book an Appointment <span className="fas fa-chevron-right"></span>
         </Link>
       </button>
+      <a href="#home">
+        <div className="top">
+          Back to top <span className="fas fa-arrow-up"></span>
+        </div>
+      </a>
       {/* <img src={ELI} alt="" className="Eli" /> */}
       {/* <img src={ELI} alt="" className="Eli2" /> */}
       {/* <img src={ELI} alt="" className="Eli3" /> */}

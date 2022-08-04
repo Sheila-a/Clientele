@@ -1,10 +1,10 @@
-:root {
+/* :root {
   --first-color: #367c77;
   --second-color: #174b47;
   --third-color: #bae4e0;
   --hover-color: #faefef;
   --dropdown-color: #bde0de;
-}
+} */
 
 .ABT-MD {
   display: flex;
@@ -130,6 +130,7 @@
   position: relative;
   height: 84vh;
   margin-top: 16vh;
+  /* margin-bottom: 10vh; */
   text-align: center;
   justify-content: center;
   /* background-color: var(--third-color); */
@@ -146,7 +147,7 @@
   align-items: center;
   justify-content: center;
   text-align-last: left;
-  min-height: 100vh;
+  min-height: 70vh;
   /* position: absolute;
   top: 0; */
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
@@ -238,6 +239,8 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+
 
 
 /* .flip {

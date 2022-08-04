@@ -15,6 +15,7 @@ import PTherapy from "./Components/Our-Services/Services/Physical-Therapy/PThera
 import Appointment from "./Components/Appointment/Appointment";
 import CEvents from "./Components/About-Us/Community-Events/C-Events";
 import Repertory from "./Components/Our-Services/Services/Repertorization/Repert";
+import Blog from "./Components/Blog/Blog";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/for-doctors" element={<FDoc />} />
           <Route path="/homeopathy" element={<Homeopathy />} />
           <Route path="/physical-therapy" element={<PTherapy />} />
+          <Route path="/blogs" element={<Blog />} />
         </Routes>
       </div>
     </Router>
