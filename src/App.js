@@ -8,7 +8,7 @@ import OurStaff from "./Components/About-Us/Our-Staff/About";
 import Contact from "./Components/Contact/Contact";
 import Covid from "./Components/Covid-19/CV_19";
 import Career from "./Components/Our-Services/Services/Career/Career";
-import Consultation from "./Components/Our-Services/Services/Consultation/Consultation";
+import Counselling from "./Components/Our-Services/Services/Counselling/Consultation";
 import FDoc from "./Components/Our-Services/Services/For Doctors/FDoc";
 import Homeopathy from "./Components/Our-Services/Services/Homeopathy/Homeopathy";
 import PTherapy from "./Components/Our-Services/Services/Physical-Therapy/PTherapy";
@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/book-an-appointment" element={<Appointment />} />
           <Route path="/register" element={<Register />} />
           <Route path="/career" element={<Career />} />
-          <Route path="/consultation" element={<Consultation />} />
+          <Route path="/counselling" element={<Counselling />} />
           <Route path="/repertorization" element={<Repertory />} />
           <Route path="/for-doctors" element={<FDoc />} />
           <Route path="/homeopathy" element={<Homeopathy />} />

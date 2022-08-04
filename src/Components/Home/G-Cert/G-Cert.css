@@ -1,0 +1,64 @@
+.GCert {
+    /* background: #49014d; */
+    background: #d6d0d6;
+    /* background:  #2f0231; */
+    /* color: #fff;/ */
+    /* margin-bottom: 5vh; */
+}
+
+.GCert-head {
+    background: #fff;
+    text-align: center;
+    color: #2c062e;
+    text-shadow: .2rem .2rem .1rem rgba(0, 0, 0, 0.315);
+    margin-top: 5vh;
+    font-size: 40px;
+}
+
+.GCert-wrapper {
+    display: flex;
+
+}
+
+.GCert-1 {
+    /* background: #fff; */
+    max-width: 35%;
+}
+
+.GPic1 {
+    /* width: 200%; */
+    margin-bottom: -1vh;
+    object-fit: cover;
+}
+
+.GCert-2 {
+    background: #fff;
+    /* padding: 2vh 12vh; */
+    padding-top: 9vh;
+    padding-left: 5vh;
+    padding-right: 12vh;
+    justify-content: center;
+}
+
+.GPic2 {
+    width: 10%;
+    margin-right: 4vh;
+    margin-left: 4vh;
+}
+
+.GPic3 {
+    width: 55%;
+}
+
+.GPic4 {
+    width: 25%;
+}
+
+.GPic5 {
+    width: 50%;
+}
+
+.h-five {
+    height: 5vh;
+    background-image: linear-gradient(#d6d0d6, #570057, #2f0231);
+}

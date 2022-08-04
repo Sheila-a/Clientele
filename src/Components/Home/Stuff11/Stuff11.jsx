@@ -23,8 +23,8 @@ const Stuff11 = () => {
           natus sunt nobis aut ullam? Porro molestiae, totam laudantium
           voluptate earum, quam error neque accusamus hic eos rem quis vero.
           Modi? error neque accusamus vgy */}
-          Get the best service regarding health with our friendly Doctors. Have
-          a Detailed Consultation and get treated properly and wholely. Our
+          Serving you is our business and we do it exceptionally well. Have a
+          Detailed Consultation and get treated properly and wholely. Our
           one-on-one meet with our Doctor leaves no stone unturned.
         </div>
       </div>
@@ -54,10 +54,10 @@ const Stuff11 = () => {
           {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
           quaerat ab hic debitis quasi repellendus, ex quia consectetur
           nesciunt, quo ipsum ad deserunt magni quod, illo neque magnam vel
-          inventore! */}
-          At Marian Homeopathic Sanatorium, we also have career opportunities
-          for all qualified personnel. Kindly go to the Services option and
-          apply for open jobs.
+          inventore! */}{" "}
+          Advance your career with us and be a clinic staff at Marian
+          Homeopathic Sanatorium. Kindly go to the Services option and apply for
+          open jobs.
         </div>
       </div>
     </div>

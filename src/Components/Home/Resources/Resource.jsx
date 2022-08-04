@@ -18,6 +18,7 @@ const Resource = () => {
           className="Resc_detail"
           data-aos="zoom-in"
           data-aos-duration="1500"
+          // style={{ height: "78vh" }}
         >
           <div className="">
             <img src={Pics} alt="" className="Pics" />
@@ -26,14 +27,16 @@ const Resource = () => {
             <h3>FAQs</h3>
           </div>
           <div className="Resc_content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            consequatur voluptatem beatae harum praesentium quia!
+            Do you know that your immune system is enhanced by Homeopathic
+            Treatment? Do you also know that our Drug Administration methods are
+            all-age-friendly?
           </div>
         </div>
         <div
           className="Resc_detail"
           data-aos="zoom-in"
           data-aos-duration="1500"
+          style={{ height: "62vh" }}
         >
           <div className="">
             <img src={Pics2} alt="" className="Pics" />
@@ -43,8 +46,8 @@ const Resource = () => {
           </div>
           <div className="Resc_content">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              consequatur voluptatem beatae harum praesentium quia!
+              Our Remedies sourced naturally have been proven for its efficacy
+              in disease annihilation.{" "}
             </p>
           </div>
         </div>
@@ -52,6 +55,7 @@ const Resource = () => {
           className="Resc_detail"
           data-aos="zoom-in"
           data-aos-duration="1500"
+          style={{ height: "65vh" }}
         >
           <div className="">
             <img src={Pics3} alt="" className="Pics" />
@@ -60,14 +64,16 @@ const Resource = () => {
             <h3>Educational Videos</h3>
           </div>
           <div className="Resc_content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            consequatur voluptatem beatae harum praesentium quia!
+            {" "}
+            Don't like to read? Learn by watching our videos and have same
+            knowledge as to reading. Detailed videos with practical examples.
           </div>
         </div>
         <div
           className="Resc_detail"
           data-aos="zoom-in"
           data-aos-duration="1500"
+          style={{ height: "55vh" }}
         >
           <div className="">
             <img src={Pics4} alt="" className="Pics" />
@@ -76,8 +82,7 @@ const Resource = () => {
             <h3>Newsletter</h3>
           </div>
           <div className="Resc_content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            consequatur voluptatem beatae harum praesentium quia!
+            Stay ahead of others with our monthly Newsletter
           </div>
         </div>
       </div>

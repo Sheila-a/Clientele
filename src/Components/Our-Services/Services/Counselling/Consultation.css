@@ -1,23 +1,78 @@
-/* :root {
-  --first-color: #367c77;
-  --second-color: #174b47;
-  --third-color: #bae4e0;
-  --hover-color: #faefef;
-  --dropdown-color: #bde0de;
-} */
+:root {
+  --first-color: #7a797a;
+  --third-color: #711a75;
+  --second-color: #711a75;
+}
 
 .Cons {
-  padding: 10vh 40vh 20vh 40vh;
+  /* padding: 10vh 40vh 20vh 40vh; */
   /* background-image: linear-gradient(to right, #bae4e0, #f1f7f6); */
   /* color: white; */
 }
 
 .Cons-text {
-  width: 100%;
+  /* width: 150%; */
   margin-bottom: 5vh;
+  margin-top: 24vh;
+  background: #fff;
   /* text-align: justify; */
   /* margin-left: 25vh; */
 }
+
+.consult-btn {
+
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 4.5px;
+  padding-left: 10px;
+  border: 1px solid var(--second-color);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0 rgba(22, 160, 132, 0.103);
+  cursor: pointer;
+  font-size: 12px;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.consult-btn a {
+  color: var(--second-color);
+
+}
+
+.consult-btn span {
+  padding: 5px 6px;
+  border-radius: 3px;
+  background: var(--second-color);
+  color: #fff;
+  margin-left: 0.5rem;
+
+}
+
+.consult-btn:hover {
+  background: var(--first-color);
+  box-shadow: 4px 4px 0 rgba(83, 92, 90, 0.459);
+
+
+
+}
+
+.consult-btn:hover a {
+  color: #fff;
+}
+
+.consult-btn:hover span {
+  color: var(--second-color);
+  background: #fff;
+  margin-left: 1rem;
+  transition: .3s ease-in;
+}
+
+
+
+
+
+
+
 
 .forma {
   /* border: 2px solid black; */

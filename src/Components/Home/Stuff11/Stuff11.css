@@ -31,6 +31,13 @@
   color: #fff;
 }
 
+.Desc_content:hover {
+  background: #fff;
+  color: #610266;
+  transition: .9s ease-out;
+}
+
+
 .logo {
   width: 60px;
   height: 60px;
@@ -41,6 +48,8 @@
   position: relative;
   margin-bottom: 1vh;
 }
+
+
 
 .logoo {
   width: 50px;
@@ -54,8 +63,10 @@
   font-size: 20px;
   line-height: 24px;
   /* color: #02201e; */
-  color: #fff;
+  color: #c456ca;
 }
+
+
 
 .line {
   width: 110px;

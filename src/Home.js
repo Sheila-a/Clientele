@@ -10,6 +10,7 @@ import OB from "./Components/Home/Our-Blog/OB";
 import RWU from "./Components/Home/Reg-W-Us/RWU";
 import React from "react";
 import "aos/dist/aos.css";
+import GCert from "./Components/Home/G-Cert/G-Cert";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Resource />
       {/* Approved */}
       <OB />
+      <GCert />
       <Touch />
       <RWU />
       <Footers />
